@@ -1,13 +1,19 @@
 # 分工. 
 
 ## **角色1**(核心分析A). 
--BLAST HMMER → candidates.tsv；Pfam InterPro → domain_report.tsv；整合候选清单初稿<br>
+-BLAST HMMER → candidates.tsv<br>
+Pfam InterPro → domain_report.tsv<br>
+整合候选清单初稿<br>
 
 ## **角色2**(核心分析). 
--系统树构建 MAFFT trimAl IQ-TREE → glnr_tree.nwk；motif 分析 MEME FIMO → motif_logo.png fimo.tsv；生成 oligo_design.tsv<br>
+-系统树构建 MAFFT trimAl IQ-TREE → glnr_tree.nwk<br>
+motif 分析 MEME FIMO → motif_logo.png fimo.tsv<br>
+生成 oligo_design.tsv<br>
 
 ## **角色3**(支撑+分析).  
--功能标注候选基因 氮代谢相关性；整合生成*regulon_seed_list.tsv*；文献综述与方法记录 *METHODS.md*图注说明 *FIGURE_CAPTIONS.md*<br>
+-功能标注候选基因 氮代谢相关性<br>
+整合生成*regulon_seed_list.tsv*<br>
+文献综述与方法记录 *METHODS.md*图注说明 *FIGURE_CAPTIONS.md*<br>
 
 # Timeline (new)<br>
 
