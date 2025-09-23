@@ -1,7 +1,7 @@
-Sharing-Repository-For-GlnR-of-PD630
+# Sharing-Repository-For-GlnR-of-PD630
 
-*本仓库用于红球菌 PD630 项目 GlnR 的序列鉴定、结构域确认、系统发育与结合位点预测，以及与实验的对接材料管理。目标是保证可复现、可协作、可追踪。*
-
+**本仓库用于红球菌 PD630 项目 GlnR 的序列鉴定、结构域确认、系统发育与结合位点预测，以及与实验的对接材料管理。目标是保证可复现、可协作、可追踪。**
+# Structure
     repo-root/
 	├─ data/                     # 数据区 只放数据 不放代码  
 	│  ├─ raw/                   # 原始数据 只增不改  
@@ -13,8 +13,8 @@ Sharing-Repository-For-GlnR-of-PD630
    		├─ scripts/               # 脚本 管线  
   		└─ .gitignore             # 只忽略 analysis 侧的临时与缓存  
    
-	Details✅
-    *data/raw*  
+# Details✅
+## *data/raw*  
     用途:外部来源的原始数据 未经任何处理 是所有分析的证据来源(只增不减)  
         典型内容  
             从 NCBI 或 UniProt 下载的原始 FASTA GBFF GFF BAM FASTQ 等  
@@ -23,7 +23,7 @@ Sharing-Repository-For-GlnR-of-PD630
         命名建议  
             来源_对象_版本_日期.扩展名 like-->NCBI_PD630_proteome_RefSeq_GCF_xxxxxxx_20250922.faa.gz  
 			
-	*data/ref*
+## *data/ref*
     用途:团队共用的稳定参考集 作为分析基线
         典型内容
             PD630 基因组 蛋白组 FASTA 与 GFF 注释
@@ -31,7 +31,7 @@ Sharing-Repository-For-GlnR-of-PD630
 	        功能验证过的 GlnR 种子序列集
 	        物种列表 与序列映射表
 			
-    *data/results*
+## *data/results*
     用途:重要中间结果与终稿快照 用日期与版本号管理
         典型内容
             BLAST 与 HMMER 输出 candidates.tsv pf00072.tbl pf00486.tbl
@@ -39,7 +39,7 @@ Sharing-Repository-For-GlnR-of-PD630
             多序列比对与系统树 all_rr.aln all_rr.trim.aln glnr_tree.nwk
             motif 与全基因组扫描 meme_motifs.meme motif_logo.png fimo.tsv
             regulon 候选清单 regulon_seed_list.tsv
-    *analysis/docs*
+## *analysis/docs*
     用途:文书与说明书 帮助新成员理解与复现
         建议文件
             METHODS.md 软件版本 参数 命令模板
@@ -48,7 +48,7 @@ Sharing-Repository-For-GlnR-of-PD630
 	        PLANS 计划与排期
         ⚠️注意⚠️
 	        只放文字与小图 大图与大表应存放 data/results 对应版本目录
-    *analysis/scripts*
+## *analysis/scripts*
     用途:可复现的脚本与自动化管线
         建议子结构
         analysis/scripts/
