@@ -18,28 +18,28 @@ motif 分析 MEME FIMO → motif_logo.png fimo.tsv<br>
 # Timeline (new)<br>
 
 ## **第0阶段**<br>
-    -角色2 准备参考数据 proteome genome GFF Pfam seeds<br>
-    -角色3 建文档骨架 METHODS.md DATA_LOG.md<br>
+    -角色2 准备参考数据 proteome genome GFF Pfam seeds
+    -角色3 建文档骨架 METHODS.md DATA_LOG.md
 	
 ## **第1阶段**<br>
-    -角色1 BLAST HMMER → candidates.tsv<br>
-    -角色3 候选基因初步功能注释<br>
-    -角色2 初步多序列比对<br>
+    -角色1 BLAST HMMER → candidates.tsv
+    -角色3 候选基因初步功能注释
+    -角色2 初步多序列比对
 	
 ## **第2阶段**<br>
-    -角色1 Pfam InterPro → domain_report.tsv<br>
-	-角色2 正式构树 → glnr_tree.nwk<br>
-	-角色3 整合候选与域注释<br>
+    -角色1 Pfam InterPro → domain_report.tsv
+	-角色2 正式构树 → glnr_tree.nwk
+	-角色3 整合候选与域注释
 	
 ## **第3阶段**<br>
-	-角色2 MEME FIMO → motif_logo.png fimo.tsv<br>
-	-角色3 生成 regulon_seed_list.tsv<br>
-	-角色1 检查 motif 与树结果一致性<br>
+	-角色2 MEME FIMO → motif_logo.png fimo.tsv
+	-角色3 生成 regulon_seed_list.tsv
+	-角色1 检查 motif 与树结果一致性
 	
 ## **第4阶段**<br>
-	-角色2 提炼实验片段 → oligo_design.tsv<br>
-	-角色3 更新方法文档和图注<br>
-	-角色1 总检查 落盘到 data/results/YYYYMMDD_v0.1/.<br> 
+	-角色2 提炼实验片段 → oligo_design.tsv
+	-角色3 更新方法文档和图注
+	-角色1 总检查 落盘到 data/results/YYYYMMDD_v0.1/
 	
 # **四个阶段完成后意味着什么<br>**
 
