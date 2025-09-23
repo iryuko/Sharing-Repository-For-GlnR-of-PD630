@@ -1,9 +1,0 @@
-# 临时输出与大文件在另一个数据仓库或 LFS，这里先忽略
-output/
-results/
-*.fa
-*.fasta
-*.fastq*
-*.bam
-*.gz
-*.zip
