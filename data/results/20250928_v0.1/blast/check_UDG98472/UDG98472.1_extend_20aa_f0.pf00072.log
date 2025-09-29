@@ -1,0 +1,53 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /Users/user/Desktop/data/PF00072.hmm
+# target sequence database:        /Users/user/Desktop/data/results/20250928_v0.1/hmmer/check_UDG98472/UDG98472.1_extend_20aa_f0.faa
+# per-dom hits tabular output:     /Users/user/Desktop/data/results/20250928_v0.1/hmmer/check_UDG98472/UDG98472.1_extend_20aa_f0.pf00072.domtbl
+# domain reporting threshold:      E-value <= 100
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Response_reg  [M=111]
+Accession:   PF00072.30
+Description: Response regulator receiver domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+  ------ inclusion threshold ------
+      0.034    0.6   0.0      0.065   -0.3   0.0    1.3  1  UDG98472.1  response regulator transcription factor [Rhodococ
+
+
+Domain annotation for each sequence (and alignments):
+>> UDG98472.1  response regulator transcription factor [Rhodococcus opacus PD630] | EXT_20aa_f0
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0     0.065     0.065      33      76 ..      52      95 ..      43     117 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 0.065
+                  HHHHHHHHHHESEEEEESSCSSSEHHHHHHHHHHCTTTSEEEEE CS
+  Response_reg 33 ealellkeekvDlillDinmpgmdGlellkelreedpelpviil 76
+                  e+ +ll++++ D+ l+D + +      l++ l ++ + +pv+++
+    UDG98472.1 52 EVSSLLEASSADVALVDARTDLAAARGLCRLLGSTGSAVPVVAV 95
+                  66677888889999999876665555567777776767776655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (111 nodes)
+Target sequences:                          1  (271 residues searched)
+Passed MSV filter:                         1  (1); expected 1.0 (1)
+Passed bias filter:                        1  (1); expected 1.0 (1)
+Passed Vit filter:                         1  (1); expected 1.0 (1)
+Passed Fwd filter:                         1  (1); expected 1.0 (1)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 35.09
+//
+[ok]

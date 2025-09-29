@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+UDG98472.1           -            270 Response_reg         PF00072.30   111     0.032    0.7   0.0   1   1     0.062     0.062   -0.2   0.0    33    76    51    94    39   115 0.74 response regulator transcription factor [Rhodococcus opacus PD630] | EXT_20aa_f1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/user/Desktop/data/PF00072.hmm
+# Target file:     /Users/user/Desktop/data/results/20250928_v0.1/hmmer/check_UDG98472/UDG98472.1_extend_20aa_f1.faa
+# Option settings: hmmsearch --domtblout /Users/user/Desktop/data/results/20250928_v0.1/hmmer/check_UDG98472/UDG98472.1_extend_20aa_f1.pf00072.domtbl --domE 1e2 --max /Users/user/Desktop/data/PF00072.hmm /Users/user/Desktop/data/results/20250928_v0.1/hmmer/check_UDG98472/UDG98472.1_extend_20aa_f1.faa 
+# Current dir:     /Users/user/Desktop/data
+# Date:            Mon Sep 29 06:10:16 2025
+# [ok]
