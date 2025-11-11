@@ -1,0 +1,1240 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.7 (Release date: Wed Jun 19 13:59:04 2024 -0700)
+
+For further information on how to interpret these results please access https://meme-suite.org/meme.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= /Users/user/Desktop/data/seeds/glnr_seeds_multi.fa
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+REQ_03650;species=R_equi 1.0000    451  REQ_04200;species=R_equi 1.0000    451  
+REQ_04210;species=R_equi 1.0000    451  REQ_04220;species=R_equi 1.0000    451  
+REQ_04230;species=R_equi 1.0000    451  REQ_27380;species=R_equi 1.0000    451  
+REQ_28480;species=R_equi 1.0000    451  REQ_28630;species=R_equi 1.0000    451  
+REQ_29370;species=R_equi 1.0000    451  REQ_30930;species=R_equi 1.0000    451  
+REQ_32900;species=R_equi 1.0000    451  REQ_32910;species=R_equi 1.0000    451  
+REQ_32920;species=R_equi 1.0000    451  REQ_32930;species=R_equi 1.0000    451  
+REQ_32940;species=R_equi 1.0000    451  REQ_39480;species=R_equi 1.0000    451  
+REQ_39560;species=R_equi 1.0000    451  REQ_42760;species=R_equi 1.0000    451  
+REQ_42780;species=R_equi 1.0000    451  REQ_45740;species=R_equi 1.0000    451  
+RER_02870;species=R_eryt 1.0000    451  RER_03750;species=R_eryt 1.0000    451  
+RER_09840;species=R_eryt 1.0000    451  RER_19920;species=R_eryt 1.0000    451  
+RER_22060;species=R_eryt 1.0000    451  RER_22070;species=R_eryt 1.0000    451  
+RER_22080;species=R_eryt 1.0000    451  RER_24390;species=R_eryt 1.0000    451  
+RER_24400;species=R_eryt 1.0000    451  RER_36230;species=R_eryt 1.0000    451  
+RER_36490;species=R_eryt 1.0000    451  RER_38310;species=R_eryt 1.0000    451  
+RER_38440;species=R_eryt 1.0000    451  RER_38460;species=R_eryt 1.0000    451  
+RER_51110;species=R_eryt 1.0000    451  RER_51250;species=R_eryt 1.0000    451  
+RHA1_ro00172;species=R_j 1.0000    451  RHA1_ro00330;species=R_j 1.0000    451  
+RHA1_ro00339;species=R_j 1.0000    451  RHA1_ro00862;species=R_j 1.0000    451  
+RHA1_ro00863;species=R_j 1.0000    451  RHA1_ro01157;species=R_j 1.0000    451  
+RHA1_ro01167;species=R_j 1.0000    451  RHA1_ro01251;species=R_j 1.0000    451  
+RHA1_ro01405;species=R_j 1.0000    451  RHA1_ro01721;species=R_j 1.0000    451  
+RHA1_ro02820;species=R_j 1.0000    451  RHA1_ro02828;species=R_j 1.0000    451  
+RHA1_ro03043;species=R_j 1.0000    451  RHA1_ro04198;species=R_j 1.0000    451  
+RHA1_ro04738;species=R_j 1.0000    451  RHA1_ro05312;species=R_j 1.0000    451  
+RHA1_ro06365;species=R_j 1.0000    451  RHA1_ro06366;species=R_j 1.0000    451  
+RHA1_ro06367;species=R_j 1.0000    451  RHA1_ro06530;species=R_j 1.0000    451  
+RHA1_ro08786;species=R_j 1.0000    451  PVE95_RS08435;species=R_ 1.0000    451  
+PVE95_RS08930;species=R_ 1.0000    451  PVE95_RS09330;species=R_ 1.0000    451  
+PVE95_RS09335;species=R_ 1.0000    451  PVE95_RS09340;species=R_ 1.0000    451  
+PVE95_RS09345;species=R_ 1.0000    451  PVE95_RS09350;species=R_ 1.0000    451  
+PVE95_RS14445;species=R_ 1.0000    451  PVE95_RS14465;species=R_ 1.0000    451  
+PVE95_RS14470;species=R_ 1.0000    451  PVE95_RS14850;species=R_ 1.0000    451  
+PVE95_RS15805;species=R_ 1.0000    451  PVE95_RS15810;species=R_ 1.0000    451  
+PVE95_RS15815;species=R_ 1.0000    451  PVE95_RS19205;species=R_ 1.0000    451  
+PVE95_RS23545;species=R_ 1.0000    451  F1734_09765;species=R_ru 1.0000    451  
+F1734_11320;species=R_ru 1.0000    451  F1734_11685;species=R_ru 1.0000    451  
+F1734_12090;species=R_ru 1.0000    451  F1734_12095;species=R_ru 1.0000    451  
+F1734_12100;species=R_ru 1.0000    451  F1734_12105;species=R_ru 1.0000    451  
+F1734_12110;species=R_ru 1.0000    451  F1734_12375;species=R_ru 1.0000    451  
+F1734_16190;species=R_ru 1.0000    451  F1734_16240;species=R_ru 1.0000    451  
+F1734_16245;species=R_ru 1.0000    451  F1734_16600;species=R_ru 1.0000    451  
+F1734_17765;species=R_ru 1.0000    451  F1734_17770;species=R_ru 1.0000    451  
+F1734_17775;species=R_ru 1.0000    451  F1734_18350;species=R_ru 1.0000    451  
+F1734_21455;species=R_ru 1.0000    451  F1734_22555;species=R_ru 1.0000    451  
+F1734_23775;species=R_ru 1.0000    451  B0E55_00050;species=R_sp 1.0000    451  
+B0E55_00384;species=R_sp 1.0000    451  B0E55_01378;species=R_sp 1.0000    451  
+B0E55_02005;species=R_sp 1.0000    451  B0E55_02019;species=R_sp 1.0000    451  
+B0E55_02032;species=R_sp 1.0000    451  B0E55_02224;species=R_sp 1.0000    451  
+B0E55_02418;species=R_sp 1.0000    451  B0E55_02419;species=R_sp 1.0000    451  
+B0E55_02420;species=R_sp 1.0000    451  B0E55_02458;species=R_sp 1.0000    451  
+B0E55_02607;species=R_sp 1.0000    451  B0E55_03125;species=R_sp 1.0000    451  
+B0E55_03292;species=R_sp 1.0000    451  B0E55_03483;species=R_sp 1.0000    451  
+B0E55_03509;species=R_sp 1.0000    451  B0E55_04513;species=R_sp 1.0000    451  
+B0E55_05238;species=R_sp 1.0000    451  B0E55_05903;species=R_sp 1.0000    451  
+B0E55_05905;species=R_sp 1.0000    451  B0E55_06110;species=R_sp 1.0000    451  
+RHCRD62_10096;species=R_ 1.0000    451  RHCRD62_10209;species=R_ 1.0000    451  
+RHCRD62_10210;species=R_ 1.0000    451  RHCRD62_100080;species=R 1.0000    451  
+RHCRD62_20425;species=R_ 1.0000    451  RHCRD62_20482;species=R_ 1.0000    451  
+RHCRD62_20483;species=R_ 1.0000    451  RHCRD62_20484;species=R_ 1.0000    451  
+RHCRD62_20485;species=R_ 1.0000    451  RHCRD62_20487;species=R_ 1.0000    451  
+RHCRD62_20488;species=R_ 1.0000    451  RHCRD62_20707;species=R_ 1.0000    451  
+RHCRD62_30157;species=R_ 1.0000    451  RHCRD62_30158;species=R_ 1.0000    451  
+RHCRD62_30159;species=R_ 1.0000    451  RHCRD62_30262;species=R_ 1.0000    451  
+RHCRD62_30457;species=R_ 1.0000    451  RHCRD62_30472;species=R_ 1.0000    451  
+RHCRD62_50404;species=R_ 1.0000    451  RHCRD62_50405;species=R_ 1.0000    451  
+RHCRD62_50406;species=R_ 1.0000    451  RHCRD62_50407;species=R_ 1.0000    451  
+RHCRD62_50408;species=R_ 1.0000    451  RHCRD62_70008;species=R_ 1.0000    451  
+RHCRD62_80148;species=R_ 1.0000    451  RHCRD62_80149;species=R_ 1.0000    451  
+GFS60_00593;species=R_sp 1.0000    451  GFS60_00827;species=R_sp 1.0000    451  
+GFS60_01170;species=R_sp 1.0000    451  GFS60_01869;species=R_sp 1.0000    451  
+GFS60_01877;species=R_sp 1.0000    451  GFS60_02070;species=R_sp 1.0000    451  
+GFS60_02365;species=R_sp 1.0000    451  GFS60_02374;species=R_sp 1.0000    451  
+GFS60_02549;species=R_sp 1.0000    451  GFS60_02593;species=R_sp 1.0000    451  
+GFS60_02604;species=R_sp 1.0000    451  GFS60_02896;species=R_sp 1.0000    451  
+GFS60_02897;species=R_sp 1.0000    451  GFS60_03127;species=R_sp 1.0000    451  
+GFS60_03406;species=R_sp 1.0000    451  GFS60_03534;species=R_sp 1.0000    451  
+GFS60_05577;species=R_sp 1.0000    451  GFS60_05578;species=R_sp 1.0000    451  
+GFS60_05579;species=R_sp 1.0000    451  GFS60_05740;species=R_sp 1.0000    451  
+GFS60_06178;species=R_sp 1.0000    451  GFS60_06405;species=R_sp 1.0000    451  
+JI76_02995;species=S_anu 1.0000    451  JI76_04995;species=S_anu 1.0000    451  
+JI76_08840;species=S_anu 1.0000    451  JI76_08910;species=S_anu 1.0000    451  
+JI76_09080;species=S_anu 1.0000    451  JI76_10325;species=S_anu 1.0000    451  
+JI76_10330;species=S_anu 1.0000    451  JI76_14420;species=S_anu 1.0000    451  
+JI76_31445;species=S_anu 1.0000    451  G3H79_07205;species=S_au 1.0000    451  
+G3H79_09750;species=S_au 1.0000    451  G3H79_13610;species=S_au 1.0000    451  
+G3H79_13615;species=S_au 1.0000    451  G3H79_13620;species=S_au 1.0000    451  
+G3H79_13625;species=S_au 1.0000    451  G3H79_22955;species=S_au 1.0000    451  
+G3H79_25595;species=S_au 1.0000    451  G3H79_25600;species=S_au 1.0000    451  
+G3H79_26850;species=S_au 1.0000    451  G3H79_26865;species=S_au 1.0000    451  
+G3H79_26970;species=S_au 1.0000    451  G3H79_27055;species=S_au 1.0000    451  
+G3H79_28705;species=S_au 1.0000    451  G3H79_30650;species=S_au 1.0000    451  
+G3H79_31485;species=S_au 1.0000    451  GKJPGBOP_00849;species=S 1.0000    451  
+GKJPGBOP_00850;species=S 1.0000    451  GKJPGBOP_00995;species=S 1.0000    451  
+GKJPGBOP_02396;species=S 1.0000    451  GKJPGBOP_05695;species=S 1.0000    451  
+GKJPGBOP_05696;species=S 1.0000    451  GKJPGBOP_05697;species=S 1.0000    451  
+GKJPGBOP_05720;species=S 1.0000    451  GKJPGBOP_06106;species=S 1.0000    451  
+GKJPGBOP_06428;species=S 1.0000    451  GKJPGBOP_06835;species=S 1.0000    451  
+GKJPGBOP_07028;species=S 1.0000    451  GKJPGBOP_07791;species=S 1.0000    451  
+GKJPGBOP_07792;species=S 1.0000    451  GKJPGBOP_07793;species=S 1.0000    451  
+GKJPGBOP_07794;species=S 1.0000    451  GKJPGBOP_07879;species=S 1.0000    451  
+GKJPGBOP_07880;species=S 1.0000    451  GKJPGBOP_07881;species=S 1.0000    451  
+GKJPGBOP_07882;species=S 1.0000    451  GKJPGBOP_07885;species=S 1.0000    451  
+GKJPGBOP_07886;species=S 1.0000    451  GKJPGBOP_07887;species=S 1.0000    451  
+GKJPGBOP_07888;species=S 1.0000    451  GKJPGBOP_07902;species=S 1.0000    451  
+GKJPGBOP_08160;species=S 1.0000    451  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /Users/user/Desktop/data/seeds/glnr_seeds_multi.fa -dna -mod zoops -nmotifs 1 -minw 16 -maxw 22 -revcomp -oc /Users/user/Desktop/data/results/20251110_v0.1/motif/meme_glnr_multi 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: + -
+width:  minw=           16    maxw=           22
+nsites: minsites=        2    maxsites=      213    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           96063    N=             213
+sample: seed=            0    hsfrac=          0
+        searchsize=  96063    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.167 C 0.333 G 0.333 T 0.167 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.167 C 0.333 G 0.333 T 0.167 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF HGRTSRTCGHSDHSVTCGHCGA MEME-1	width =  22  sites = 213  llr = 2035  E-value = 5.5e-177
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif HGRTSRTCGHSDHSVTCGHCGA MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  4:51:31:34:34:4::13:26
+pos.-specific     C  23124237234136219128:3
+probability       G  275:53:36164132:16128:
+matrix            T  2::7:26::2:23:28:13::1
+
+         bits    2.6                       
+                 2.3                       
+                 2.1                       
+                 1.8                       
+Relative         1.6                *      
+Entropy          1.3                **     
+(13.8 bits)      1.0    *  *        **  ***
+                 0.8   **  **       **  ***
+                 0.5  **** *** * ** **  ***
+                 0.3 **********************
+                 0.0 ----------------------
+
+Multilevel           AGGTGATCGAGGACATCGTCGA
+consensus            CCACCGCGACCACGC   A AC
+sequence             T        T TT G   C   
+                                           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif HGRTSRTCGHSDHSVTCGHCGA MEME-1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value                     Site       
+-------------            ------  ----- ---------            ----------------------
+REQ_28480;species=R_equi     +    423  5.13e-11 ACGGCCGATG AGGTCATCAAGTACATCGCCGA ACAGGAC   
+F1734_16190;species=R_ru     +    423  4.00e-10 TCGGCCGAAG AGGTCATCAAGTACATCGAGGA CGAAAAC   
+RHCRD62_30472;species=R_     +    423  2.36e-09 ACGGCCGAAG AGGTCATCAAGTACATCGCGGA CGAACAG   
+B0E55_03509;species=R_sp     +    423  2.36e-09 ACGGCCGAAG AGGTCATCAAGTACATCGCGGA CGAGAAC   
+RER_36230;species=R_eryt     +    423  2.36e-09 ACGGCCGAAG AGGTCATCAAGTACATCGCGGA CGAGAAC   
+GFS60_02604;species=R_sp     +    423  3.76e-09 ACGGCCGAAG AGGTCATCAAGTTCATCGCGGA CGAGAAC   
+RHA1_ro01157;species=R_j     +    423  3.76e-09 ACGGCCGAAG AGGTCATCAAGTTCATCAAGGA CGAGAAC   
+PVE95_RS15810;species=R_     +     42  9.11e-09 TCGGTCTACA AGATGATCCCGTCCATCTTCGA GGCCCGTGCG
+GKJPGBOP_07793;species=S     +    423  1.71e-08 GCGCAGATCG CGATGGTCATGAACCTCGACAA GTGCATC   
+G3H79_13620;species=S_au     +    423  1.71e-08 GCACAGATCG CGATGGTCATGAACCTCGACAA GTGCATC   
+PVE95_RS14445;species=R_     +    423  1.71e-08 ACGGCCGAAG AGGTCTTCAAGTTCATCGCGGA AGAGAAC   
+B0E55_02419;species=R_sp     +     35  3.76e-08 TCCGTTTACA AGATGATCCCGGCGATCTTCGA GGCGAAGGCT
+RER_22070;species=R_eryt     +     35  3.76e-08 TCCGTTTACA AGATGATCCCGGCGATCTTCGA GGCGAAGGCT
+GFS60_03127;species=R_sp     +    217  5.49e-08 TGGCCGACGA GGATCGCCGTCGACATCGTCGA CTAGCGTTGG
+REQ_32900;species=R_equi     -     51  5.49e-08 CACGGCCTTC AGGTGATCGAGTCCGCCGTCGA GCGATTCCAC
+B0E55_03125;species=R_sp     +    123  6.60e-08 GCGATCGCGG AGATCGTCGAATCCCTCGACGA CGACGGCAGA
+F1734_17770;species=R_ru     +     28  6.60e-08 TCCGTCTACA AGATGATCCCGTCCGTCTTCGA AGCCAAGGCG
+GKJPGBOP_07886;species=S     +    423  7.92e-08 GCCCAGATGG CGATGGTGATGAACCTCGACAA GTGCATC   
+GKJPGBOP_07880;species=S     +    423  7.92e-08 GCCCAAGTGG CGATGGTGATGAACCTCGACAA GTGCATC   
+RHCRD62_50406;species=R_     +    423  7.92e-08 GCGCAGATGG CGATGGTGATGAACCTCGACAA GTGCATC   
+F1734_12100;species=R_ru     +    423  7.92e-08 GCCCAGATGG CGATGGTGATGAACCTCGACAA GTGCATC   
+PVE95_RS09340;species=R_     +    423  7.92e-08 GCACAGCTCG CGATGGTGATGAACCTCGACAA GTGCATC   
+RHA1_ro00339;species=R_j     +    399  7.92e-08 GGAGCAACGA CGATGTTCGAATTGATCGACGA ATGGGGTCCG
+REQ_04220;species=R_equi     +    423  7.92e-08 GCGCAGATGG CGATGGTGATGAACCTCGACAA GTGCATC   
+REQ_45740;species=R_equi     -      7  9.48e-08 GACGCGGCCG GGATCTCCGAGTTCCTCGTCGA CACAGG    
+RHCRD62_50408;species=R_     +    121  1.13e-07 AAGCTCCGGG TGGAGATCGCCGACATCGACAA CCGCGGCAAG
+B0E55_02420;species=R_sp     -     45  1.90e-07 AACGGCCTTG AGGTGATCGAGTCCGCCTTCGA GTGATTCGAC
+RER_22080;species=R_eryt     -     45  1.90e-07 AACGGCCTTG AGGTGATCGAGTCCGCCTTCGA GTGATTCGAC
+G3H79_26850;species=S_au     -     83  2.24e-07 GCCGTCGGCG GGGCCATCGACACCATCGCCGA GCGCTTCTAC
+GFS60_05740;species=R_sp     -    155  2.24e-07 GAACGGGGCG AGATCGTCGGCGCCCTCGCCGA GTCCGACGAG
+RER_51110;species=R_eryt     +    420  2.24e-07 GTACCGGCTC TGACCATCGGCTCGATCGTCGA CATGGCGGGT
+RHCRD62_80148;species=R_     +      2  2.65e-07          C GGGTGTTCGCGGAGGTCGTCGA CATCACCGGA
+GFS60_01869;species=R_sp     -     12  3.11e-07 GGGGTGGATC GGATCTTCACGGTGATCGGCGA CCATCCCGCG
+B0E55_03292;species=R_sp     +     51  4.28e-07 GTGGTTCGAA AGATGACCATCGAGTTCCTCAA GCCGGTCACC
+RER_38310;species=R_eryt     +     51  4.28e-07 GTGGTTCGAA AGATGACCATCGAGTTCCTCAA GCCGGTCACC
+F1734_17765;species=R_ru     -     73  5.01e-07 GACCGCCTTC AGGTGCTCGAGACCGCCGTCGA GGGCCTCGAG
+PVE95_RS09330;species=R_     +    108  5.01e-07 AAGATCCGCG TCGAGATCGCCGACATCGACAA CCGCGGCAAG
+GKJPGBOP_07888;species=S     -    100  6.81e-07 GACGACGGCG AGGTGGTCGGGGAGTTCGTCGT CGGACAGCCG
+PVE95_RS08930;species=R_     -     89  6.81e-07 GAAGGGAGCG AGATCGTCGGCGCCCTCACCGA GACCCACCAG
+RHA1_ro06530;species=R_j     -    122  6.81e-07 GAACGGCGCC AGATCGTCGGCGCCCTCACCGA GTCCGACGAG
+RER_24390;species=R_eryt     -    131  6.81e-07 GAAGGGCGCC AGGTCGTCGGCACCTTCACCGA GACCGACCAA
+G3H79_25595;species=S_au     -    109  7.92e-07 CACGTCGCGC ACGTGGTCGAGGCCGCCGTCGA TCCGCTCCAG
+RHCRD62_80149;species=R_     +    217  7.92e-07 GTCGCGACCA CGATCATCGCGCTGATCGTGAA ATACACGATC
+RHA1_ro01251;species=R_j     -     28  7.92e-07 GTCGGCGAGC CGACCATGGACGACGTCGGCGA GCCGACCATG
+GKJPGBOP_07882;species=S     -     34  9.19e-07 GACGACTGGC AGGTGGTCGGGGAGTTCGCCGC TGTCGGCGCT
+G3H79_13615;species=S_au     +    331  9.19e-07 CTGCCCCTCG TCACGATCGAGAACTTCCACGC GTCGCGCCGC
+G3H79_27055;species=S_au     +    399  1.06e-06 AGGAGGAGCT GGATGTTCCAGAACGCCGACGA AGCCAAGAAG
+JI76_08840;species=S_anu     +    399  1.06e-06 AGGAGGAGTT GGATGTTCCAGAACGCCGACGA AGTGCAGAAG
+REQ_32930;species=R_equi     +     91  1.23e-06 TCGGTGTACA AGCTGATCCCGTCGATCTTCGA GGGCCGATCC
+JI76_02995;species=S_anu     -     20  1.42e-06 ACGCTGCGCG AGGTCCTCAAGGTCCTCCAGGA CCAGAACATG
+PVE95_RS15805;species=R_     -     40  1.42e-06 GACCTCCTTG AGGTGCTCGAGGCCACCCTCGA GTGCGTCGAG
+RHA1_ro00330;species=R_j     +    237  1.42e-06 GACGACGTCG GGGTCGTGACCGTGTTCGACGA CCCATTCGGC
+GKJPGBOP_07028;species=S     -     35  1.63e-06 CAGCTGGTCC CCGTCACCGTGCACTTCGACGA CCTCGACGCG
+GFS60_02549;species=R_sp     +    179  1.63e-06 GGCATCCCCG ACATGCTGGTCGCCGTCATCGA GGGCCCCGAC
+JI76_31445;species=S_anu     +     65  1.88e-06 GACACCGCCT TCGTCCCGGACGAGATCGTCGA CCGGTTCTGT
+G3H79_28705;species=S_au     +    408  2.16e-06 AGCGTGATCA GCATCGCCGAGAACGTCACCGA GACCGCAGAA
+RHA1_ro02820;species=R_j     +     17  2.16e-06 GACGACAGCA CCATCGAGAAGAACATCGGCAA GCTCGGGAAC
+GKJPGBOP_06106;species=S     +    420  2.47e-06 AACGCCGATG AGGCCAAGAAGTTCATCGCGGA CGAGGACGTC
+G3H79_31485;species=S_au     +    314  2.47e-06 CGTCGCATTA ACATGTCGACGCTGATCGTCGA CATGACGACA
+RER_09840;species=R_eryt     -    212  2.47e-06 TGGATGGTCG ACATGGCCACCACGATCGTCGC CGTCGCAGCG
+GKJPGBOP_06835;species=S     -     74  2.82e-06 ACCTTGCGCG AGGTGCTCAAGGTGCTCCAGGA CGAGGGGCTG
+RHCRD62_20484;species=R_     +    423  2.82e-06 GCACAGATGG CCATGGTCATGAACCTGGACAA GTGCATC   
+PVE95_RS15815;species=R_     +    396  2.82e-06 CGAGGAGGAA CGGCGATGACGACCTTCATCGA AAATGAAAGT
+RHA1_ro06367;species=R_j     -     48  2.82e-06 CACGGCCTTG AGGTGGTCGAGCCCGCCTTCGA GGGACTCGAC
+REQ_30930;species=R_equi     -     97  2.82e-06 GAAGGGAGCG AGGTCGTCGGCCCCCTCGCCGA GACCGACGAG
+REQ_04230;species=R_equi     +    197  2.82e-06 GCCACCGACA CGATGCCCGTCGACATCGCCGC AGCGCCTGCC
+GKJPGBOP_07887;species=S     +    226  3.23e-06 CACGACCGCC AGACCTCCGACACCCTCACCGA CCCGGCCGAC
+REQ_04210;species=R_equi     +    271  3.23e-06 AAACACCGGC AGACCGCCGACGACGTCGCGGA CGCGCAGGAC
+GKJPGBOP_06428;species=S     -    422  3.68e-06   CGTCGCCA GGATCTCGGAGATGATCGCCGC GGCAAGCGTC
+JI76_10330;species=S_anu     -    112  3.68e-06 CACGTCCCGG ACGTGGTCCAGGCCGCCGTCGA TCCGCTCCAG
+GKJPGBOP_07902;species=S     -     41  4.18e-06 GCGCTGCGGG TGGACATCGCGTTCTTCGACAT TCACCGCCCC
+G3H79_30650;species=S_au     -     90  4.18e-06 ACGCTGCGCG AGGTCCTGAAGGTCCTCCAGGA CCAGGGTCTC
+PVE95_RS09345;species=R_     +    226  4.18e-06 CCGGTCCCGG TGGCGGTCGAGACCTTCCACGC CCTCGCCCAG
+GKJPGBOP_00849;species=S     +    193  4.76e-06 GCGGTGGCCT TCATCCTCGCCGTCACCGCCGA ACTGGTCATC
+G3H79_25600;species=S_au     +    128  4.76e-06 GAACACCCCC TGGACATCGCGGCGTTCGGCGA CCCCGAGACC
+GFS60_05578;species=R_sp     +     21  4.76e-06 TCCGTCTACA AGATGATTCCGTCGATCTTCGA GGCCAAGGCG
+GFS60_00827;species=R_sp     -    146  4.76e-06 GACCGGAACC AGGCGGTCGCGGTCACCGTGGA GCAGGAGAAC
+RHCRD62_20425;species=R_     +    426  4.76e-06 ACGCCGCGGC TGGTCGTCGGATCGTTCGTCGA CATG      
+B0E55_02019;species=R_sp     +    181  4.76e-06 CGTTCGGTGG AGGCGATCGACATGCTGTTCAA GACAGCAGGC
+B0E55_00384;species=R_sp     -    287  4.76e-06 TGGATGGTCG TCATGGCCACCACGATCGTCGC CGTCGCAGCG
+RHA1_ro06366;species=R_j     +     20  4.76e-06 TCGGTCTACA AGATGATTCCGTCGATCTTCGA GGCCAAGGCG
+B0E55_02224;species=R_sp     -     39  5.40e-06 CCGGTATTCG GGATGTTCGGCTATCTCTTCGA CATCGACCGC
+RER_19920;species=R_eryt     -     51  5.40e-06 CCTGTATTCG GGATGTTCGGCTATCTCTTCGA CATCGACCGC
+REQ_28630;species=R_equi     +      2  5.40e-06          G AGGCCGCCCCGTTCCTCGACGA CGGGCGCGGG
+GKJPGBOP_07885;species=S     +    239  6.11e-06 GCGGCCGAGG TGATCACGGCGTCGCTCGACGC CCGCCGCCAG
+GKJPGBOP_05695;species=S     -     82  6.11e-06 CACGTCCCGT ACGTGGTCGAGGCCGCCCTCGA TGCGCTCCAG
+GFS60_03534;species=R_sp     +    310  6.11e-06 GCGCATCCCG ACGTGATCGACATGTACGAGAA ATTGCGTGAC
+GFS60_01877;species=R_sp     +     18  6.11e-06 GACGATTCCA CCATCGAGAAGAACATCATGAA ACTGGGAAAC
+RHCRD62_20707;species=R_     +     85  6.11e-06 GACTGGATGC TCATGTACACGGTCCTCCACGA CGGAAAGGGA
+RHCRD62_10209;species=R_     +     44  6.11e-06 GGTTTCCCGG ACGCCTACGCCATCGTCGTCGA TGCCAACGAG
+RHA1_ro01167;species=R_j     +    151  6.11e-06 CTGGCGAAGC AGATGAACGGCTCGCTCGTCAC GTACCGGGGC
+RER_02870;species=R_eryt     -    395  6.11e-06 TCGGCTAACA CCATTTCCATCGACATCGACGA CCTCCGAGCA
+RHCRD62_20483;species=R_     +    247  6.91e-06 GCGGGAATGA CGGCGTTCGAGGTGATGGCCGA CAAGTTCCAC
+PVE95_RS19205;species=R_     -    425  6.91e-06      CATGG CGGCGATCGTCATCGTCGCCAC AGCGGCAAGC
+RHA1_ro02828;species=R_j     -      3  6.91e-06 GACATCGATC GGATATTCACGGTGATCGGCGA CC        
+B0E55_04513;species=R_sp     +     40  7.81e-06 ACGTCGAGCG CCACCGCGAAGGACATCGTCGC TGCGGTGAAC
+F1734_23775;species=R_ru     +    240  7.81e-06 TACCGGCTGC ACGCCAACGCCTACATCACCAA GCCGGTCGAC
+G3H79_13610;species=S_au     +    289  8.81e-06 CCCTACGCCC TGATCCTGGACGCGATCTGCGC GACGCTGCCG
+RHCRD62_50405;species=R_     +    259  8.81e-06 CCCGTCCCGG TGGCGGTCGAGACGTTCCACGC GCTGCGGCAG
+RHCRD62_50404;species=R_     +    173  8.81e-06 ACGAACCGGA TGGCGATCGACATGTTGCACGA GCAGTTGAGC
+B0E55_02418;species=R_sp     +    190  8.81e-06 TTCGGCCTGC TCGTCGTCGCGGTGATCGTGGT GCTCCTGGGC
+GFS60_02593;species=R_sp     +    217  9.92e-06 GGCGAAGCAT GCGTCGACGACGCCGTCATCGA CTATTTCGTG
+B0E55_05905;species=R_sp     +    105  9.92e-06 ATCGTGACGA CGCCTATCGACAACATCGCCGA CATGGAGTGT
+RER_38460;species=R_eryt     +    106  9.92e-06 ATCGTGACGA CGCCTATCGACAACATCGCCGA CATGGAGTGT
+REQ_32940;species=R_equi     +    272  9.92e-06 CGCCTGAACT GGACGTTCGTGGACCTCACCGC CCGGCCGGGC
+JI76_14420;species=S_anu     +      4  1.12e-05        TAC CGCTGATCGCGCTCATCGTCAT CTCCGTGACG
+RHA1_ro06365;species=R_j     +     97  1.12e-05 CTCGGCCCGT TGCTGTTCGGGGTGTTCCACGA TGCCTCCGGC
+REQ_39560;species=R_equi     -     92  1.12e-05 GACCGCGGCG AGACCGACGTGCTCGTCCTCGA GCGGGACACC
+REQ_27380;species=R_equi     -     70  1.12e-05 CTCCACTGTG GGGCGACCGTCCTCCTCGTCGA GTTCGACGCC
+RHCRD62_70008;species=R_     +    149  1.25e-05 GAGGCCGTAC TCATCGACGGGAAGGTCTCCGA GGGGCTCTCG
+PVE95_RS09335;species=R_     +    229  1.25e-05 TTCCCGCCAC TGGTGATGGGCGCGACCTACGA CGCCGAGGGC
+GKJPGBOP_00850;species=S     +     64  1.40e-05 CCCTTCGCCG AGGCCACCGACGACCTCACCGT CGCCATGTAC
+RHCRD62_30262;species=R_     -    233  1.40e-05 GGCATCGGCA AGGTCGACGCCGCGATCGCCGT CACCGAGGCG
+F1734_21455;species=R_ru     +    402  1.40e-05 CGGAATCGAA TGAAGTTCAGGAAGCTCGCCGC CGTGGCGGCG
+PVE95_RS14850;species=R_     +    389  1.40e-05 AGCGAATATC AGGAGACCCTGTATGTCGTCGA CCACCGACGT
+REQ_32910;species=R_equi     +     61  1.40e-05 ACCGTCGGGA CGGTCACCCAGCTGTTCGACGC GAAACTGCCG
+RHCRD62_50407;species=R_     +    276  1.57e-05 GCCGCGGTCG CCGTCGTCGCCTTCCTCTACAC CGCGTTGAAG
+RHCRD62_100080;species=R     +    399  1.57e-05 CCAGGAGCCC TGATGACGCTCGACACCACCGA CCTGAACGTG
+PVE95_RS14465;species=R_     +     88  1.57e-05 AACCCCTACC TGACCTTCGCGGTGCTCCTCGC CGCCGGTCTG
+JI76_09080;species=S_anu     +    122  1.76e-05 GTCGAAGCTC ATGTCGTCGAGTCCTTCTGCGA AGGGGCCGGG
+RHCRD62_30157;species=R_     +     85  1.76e-05 ATCGGCCCCC TGATGTTCGGGGTGCTGCACGA CGCCACGGGC
+RER_24400;species=R_eryt     -     73  1.76e-05 ACCGGAGACA AGGTGCACACCGACGACGTCGA GCGAGTCGTC
+F1734_12095;species=R_ru     +    234  1.97e-05 TTTCCGCCGC TCGTCATGGGCGCCACCTACGA CTCCGCCGAC
+F1734_09765;species=R_ru     +     98  1.97e-05 ATGGAGGAAT GCCCCGTCGACGCCATCTACGA GGGCGCCCGC
+PVE95_RS08435;species=R_     +    426  1.97e-05 CGCATCGAAG AGATCTACGAGCAGGTCAAGGC CCGC      
+G3H79_26970;species=S_au     +    186  2.19e-05 CTGCTGATCG CGGCCGCCAACGCCGTCATCAA GTAGCCCGCG
+G3H79_22955;species=S_au     +     66  2.19e-05 GGCAGCGGTG CGAAGGAGAAGTTCATCGGCGC CGATCTGTCC
+B0E55_03483;species=R_sp     -    229  2.19e-05 GTAAACGAAG TAGTCGACGACGGCATCGTCGA CGCAGGAGTT
+RER_36490;species=R_eryt     -    229  2.19e-05 GTAAACGAAG TAGTCGACGACGGCATCGTCGA CGCAGGAGTT
+RHCRD62_30457;species=R_     +    278  2.44e-05 GTGGACGATC CGGTGGTGGCGTACCTGACCGA CCTGGCGATT
+RHCRD62_20487;species=R_     +    429  2.44e-05 CACCGTCAGG TGACGGTGGGGTCGGTCTCCGA C         
+RHCRD62_10096;species=R_     +    130  2.44e-05 GAGACCGCTC CGATCACGGTCGAGATCGTGAT CCCGCACGTC
+B0E55_05238;species=R_sp     -    155  2.44e-05 CCTGTCGTCG ACGCGACCACGCACACCGACGA TCCGAGCGTC
+F1734_12105;species=R_ru     +     13  2.44e-05 ACGCGACCGG AGATCCCCGACGCCGTCGGCAT GACCGAGGAG
+RHA1_ro03043;species=R_j     -    392  2.44e-05 CGGCACGTAG CCACGATGAACATCACCGAGAA AGAAGTTCCA
+RER_38440;species=R_eryt     +    426  2.44e-05 GTTCGCTTGC AAGCGATCAAGGACGTCGAGGC CTAC      
+GKJPGBOP_07881;species=S     +    205  2.72e-05 CACCGGCTGC TGGCCGTCGCCAAGTACGCCGA CCGGTACGTG
+GFS60_05579;species=R_sp     +    393  2.72e-05 CCCCAAAGGA GGACTGTGATGACCGTCGTCGA CGTGAGCGTG
+RHCRD62_30158;species=R_     +    181  2.72e-05 ATGGCGTTCT GGGTGTTCCTCGCCTTCTACGT CGCCTGCGTG
+GKJPGBOP_07879;species=S     -     91  3.02e-05 GTGGCGGACA AGCCGTTCATCGTCATCTGGGA GTCGACCCGC
+GKJPGBOP_05697;species=S     +     31  3.02e-05 GGCAAGCTCA CCGTCACCGCCAACTTCGGCAC GGTCCCGTAC
+RHCRD62_30159;species=R_     +    133  3.35e-05 ATGGCGAAGC ACGTGGACGGCTACCACGACGA GTGGGCCGGT
+B0E55_01378;species=R_sp     -    127  3.35e-05 GAAGACTCCG AGACCTCGGACGTCTCCGACGC TCGGGTGTTT
+GFS60_02896;species=R_sp     +    399  3.72e-05 GGTGCCGGTT CGATGACCGCGACCATCGAGGG TGCATCGGAG
+RHCRD62_20485;species=R_     +    399  3.72e-05 GCCAAACACC CGATGACCCCGACCACCGGCAA GCTGGACGCA
+B0E55_06110;species=R_sp     -     86  3.72e-05 CCGCACCTGC GCATCCTGGTCTTGGTCGACAC GCGAGGGCCC
+RHA1_ro05312;species=R_j     +    215  3.72e-05 CCCGACGGAT TGGCCGAGCAGGTCGTCGGCGA GGGCGAGACC
+GKJPGBOP_05720;species=S     -    105  4.12e-05 AGTACGGCGC AGCTCATGACGGAGTTCAGCAC CCAGCTCGGC
+B0E55_05903;species=R_sp     -      3  4.12e-05 AGGTTGGTTG AGGCGCTGGACAAGCTCGAGAC GG        
+REQ_29370;species=R_equi     -    379  4.12e-05 TCGACGTCAT GGGTGCTCCTGAATTTCGTGAA TCTCACGGTG
+G3H79_13625;species=S_au     +     19  4.55e-05 AGCAGCGACG CGATCGCCAGCAGGATCTCCGA CAGGACGTCG
+GFS60_05577;species=R_sp     -     45  4.55e-05 ACACCCTGCG TGAAACCCGACAACGTCGCCGA GCCGAGGTGT
+PVE95_RS23545;species=R_     +    399  4.55e-05 AGGAGTTGCG GGATGCAGGACGAGATCACCAC GGTGAAATCC
+F1734_16600;species=R_ru     +    389  5.03e-05 CGCGAATTCC AGGAGTACCCGTATGTCGTCGA CCACCGACGT
+RHA1_ro00172;species=R_j     -    176  5.03e-05 AAGGCTCCAC ACGTGATCCTGCTGCTCTCCAC CTCCGACACC
+GFS60_02374;species=R_sp     +    193  5.55e-05 GGTGACGCCC TGCTGGTGGCCTTCGACGTCAA GACCGAACGC
+GFS60_00593;species=R_sp     +    347  5.55e-05 AAACGGGTCA CGGTCATCGTGACTTTCCGCGC ACGGTTCCGT
+RHCRD62_20488;species=R_     -    135  5.55e-05 GTGCAGCGGC GCACGCTGACGGTCGTCGTCGC CAGCCAGATC
+RHA1_ro04198;species=R_j     +    347  5.55e-05 AAACCGCTCG CGGTCATCGTGACTTTCCGCGC CGGGTTTCGT
+JI76_04995;species=S_anu     -    184  6.11e-05 CGTCAGCTCC CGGTCGCGCTCTTCGTCGTCGT ACCGCTTTCG
+RHCRD62_20482;species=R_     +     49  6.11e-05 CCCGTGGTGC TGGAGTTCGCGGCGACCACCGA CCCGACCCGG
+F1734_12110;species=R_ru     -    210  6.11e-05 AACGTCGCAC ACACCGCCCCGATCGTCGCCGC ATAGCAGGAA
+PVE95_RS09350;species=R_     +    211  6.11e-05 CCGTACGCGC AGGTCGTCGCGGCCGTGTGCGC GACGCTCCCG
+JI76_10325;species=S_anu     -    143  6.73e-05 CTGACCACGC TGGTGCTCCTCTGCCTCGCCGC GGCCGCCGCG
+F1734_22555;species=R_ru     -    324  6.73e-05 GAGGGGGGAC GGGTCACGGGGGCCGTCTTCGC CGACACCGGA
+RER_22060;species=R_eryt     +    232  6.73e-05 GTCGTCGCTG TGATCGTGGTGCTCCTGGGCGC CTACCAGGCA
+GKJPGBOP_02396;species=S     +    240  7.40e-05 CGTGGCGGGC TGATCTCGGAGTTCATGGGGGC GTAACACTGA
+B0E55_02032;species=R_sp     -    252  7.40e-05 GTGACCACCC AGACCGCGCACGACATCGACAG CGTTGATCTC
+B0E55_00050;species=R_sp     +    149  7.40e-05 GCCGAGGGCG CGATCCAGACCGCGATCAACGC GGTATGGGGC
+RER_51250;species=R_eryt     -    282  7.40e-05 GTGACCACCC AGACCGCGCACGACATCGACAG CGTTGATCTC
+REQ_42780;species=R_equi     -     52  7.40e-05 AACAAGGAAG CGATCCTGCAGGCGCTGATCGA CAAGAATCGC
+GFS60_03406;species=R_sp     +    115  8.13e-05 AGTGCCCGCA CGATCACCACACTCACCGCCGA TGCCCACCAG
+GFS60_02897;species=R_sp     +     90  8.13e-05 GCGGGCCAGT TCATCCTGGTCGGCGTCAACGC TGCAGTTCTC
+B0E55_02005;species=R_sp     -    140  8.13e-05 CCAGGCATTG GCGACACCGAGAACGTGATCGA GCAGCAGAGC
+F1734_16240;species=R_ru     +    110  8.13e-05 GGGTACCGCG AGCTGCCCACCGACCTCGACAT CGCCCTGCGG
+F1734_11685;species=R_ru     +    405  8.13e-05 TTGCAAGTGG AGGAAGTGGTGAACACCGGCGA CGCGGCATGG
+RHA1_ro08786;species=R_j     -     83  8.13e-05 ATCGCGGCGT GGACCCCCAACAACTCCGTCGC CCGACAGATT
+REQ_42760;species=R_equi     -    198  8.13e-05 TCCCGCACCA GGGCGGCGACGGTCGTCGACGC GGACAGGTGT
+GKJPGBOP_07791;species=S     +    133  8.92e-05 GACCACCTTC CCCTGATGCTGGAGTTCGCCGC CCGCGTCCCG
+JI76_08910;species=S_anu     +     15  8.92e-05 GGCGGGCAGC ACATCGGGGAGACGATCACCGA TCACCGGGGG
+REQ_04200;species=R_equi     +    154  8.92e-05 GACTTCCTGC CCGTCGTCCTCGAGTTCGCGGC TGCCACCGGT
+REQ_32920;species=R_equi     +    411  9.77e-05 GTGAGCCGGG TGGTGATCGTGGGCAACGGCAT GGCCGGGGCG
+GKJPGBOP_07792;species=S     +    142  1.17e-04 TACCGGCTGC TGGCCGTGGCCAAGTACGAGGA GCGCTACGTG
+RHA1_ro01405;species=R_j     +     23  1.17e-04 GCGCGACTGC GCAAGCTCGAGGAGGTCGGCGT CATCGAACGC
+REQ_39480;species=R_equi     +    148  1.17e-04 GTTCGATCGG GGGTCGTGAAGCGGATCCGCGA CCCGGCCGGG
+GFS60_02070;species=R_sp     -    202  1.28e-04 AAAGCATCGG TGCTCGTCGTGTCGCTCCGCGC GCCGCGCCAG
+RHA1_ro01721;species=R_j     -    232  1.28e-04 TCCGAGGCGG AGGAGGTGGCCGGCGCCGTCGA ACGTCCGGTG
+GKJPGBOP_05696;species=S     +    193  1.40e-04 CCCGGCGACG ACGTGATCCGCCTGTCCGACGC CACCCGCAGC
+F1734_18350;species=R_ru     -    404  1.40e-04 AGCACCCCGG ACACCACCAGCACCAACCACGA CATCACAGGC
+F1734_16245;species=R_ru     +    261  1.40e-04 GTCGACGACC CGGTGACCGGCTATTTCGTGAC CGGGCAGGCG
+F1734_12375;species=R_ru     +    328  1.40e-04 CCGCGTACTC GCCTGACGGACGCGATCGCCGC CGGGAGCAGC
+PVE95_RS14470;species=R_     -    115  1.40e-04 GCCGGATCGC CGGTCGTCGAGATCACGAGCAC GGGCGGCAGG
+RHA1_ro04738;species=R_j     -    131  1.40e-04 AGGCACATCA TGATGCTCGGACTGCTCGCCGC AATCAACAGC
+GFS60_02365;species=R_sp     -    202  1.52e-04 GCAGCGATGT TCGAGTTCGAGCACATGTCCGC AGTCGTGCAG
+RHCRD62_10210;species=R_     +    268  1.52e-04 CTGGTCGACG CCGCGGCCGAGGTCGCCGGCGA GGCGGAGCGG
+F1734_17775;species=R_ru     +    165  1.66e-04 CTCGGCGGCG CCGCGTTCGTGGTCCTGATCGC CGGCCGGGTG
+F1734_12090;species=R_ru     -    291  1.66e-04 CGGCAGGGGC GGGTGCTCCTCCTGTTCGAGGC CGGGTGTTCA
+RHA1_ro00863;species=R_j     +    399  1.66e-04 GGTGCCGGTC CGATGACCGCCCTGATCGAGGG GCCTTCCGAG
+G3H79_09750;species=S_au     +    248  1.80e-04 CCCACGCGTA ACACGCACGCCCCCTTCGTCAC TGCCGCGAAA
+F1734_11320;species=R_ru     +    318  1.96e-04 GTTCACTCTC AGGTGACGGTGATTAACAACAT AAGACAGTCA
+GKJPGBOP_08160;species=S     -     22  2.13e-04 GGCGACCTGC TCACCGTCGAGTACCGCACCGA TCCCGCCCGG
+RHA1_ro00862;species=R_j     +    423  2.13e-04 CCGAGTTCGA GCAAGCTGCTGGTCGTCGGCAA CGGTATG   
+B0E55_02607;species=R_sp     +     74  2.31e-04 CACCTGACCG GGCAGTACGACGTGGTCGTGGA GGCGTCTGGC
+RER_03750;species=R_eryt     +    201  2.51e-04 GGTGACATGC TCCTGCCCCACCACCTCGGCGA AGGACGCGGG
+REQ_03650;species=R_equi     +    159  2.71e-04 GGTGACGTGC TCCTGACCCACCACCTCCGCGA ACGAAGCTGG
+GFS60_01170;species=R_sp     +     73  2.94e-04 AGCAGTCCGA GCATCATGATATGCCTCGTCAT CGTCGGTGGA
+GFS60_06405;species=R_sp     -    326  3.70e-04 CCCCGCAGTT CGGCAATCCGGTCCCTCGACAC CACGAATTGG
+GFS60_06178;species=R_sp     -    372  4.29e-04 CACGGCCGCG ACATGTCCACCTGGTTCTCGGC CCCTATCAAG
+G3H79_26865;species=S_au     -     18  4.62e-04 CGCAAGGCCC GCAACCTGGAGGCCAACCCCGA GGTGGTCCTG
+GKJPGBOP_00995;species=S     +     82  5.34e-04 CTGCGTCTGG AGGTGGCCGACCGCTCCAGCGC CCTGCCGCGC
+B0E55_02458;species=R_sp     -     14  6.59e-04 ATCGATCGCG TGACCTACGAGGGCACCAAGAC GGGCTTCAAA
+G3H79_07205;species=S_au     -     89  1.05e-03 TTGTGGACGT AGGTGTCCCACATGCTGGGCAG CACCCTTGTT
+GKJPGBOP_07794;species=S     +    356  1.34e-03 TCGTGGAGTG GCGTGCCCAGCGAGTCCGCCAC ACGGCCCCAG
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif HGRTSRTCGHSDHSVTCGHCGA MEME-1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+REQ_28480;species=R_equi          5.1e-11  422_[+1]_7
+F1734_16190;species=R_ru            4e-10  422_[+1]_7
+RHCRD62_30472;species=R_          2.4e-09  422_[+1]_7
+B0E55_03509;species=R_sp          2.4e-09  422_[+1]_7
+RER_36230;species=R_eryt          2.4e-09  422_[+1]_7
+GFS60_02604;species=R_sp          3.8e-09  422_[+1]_7
+RHA1_ro01157;species=R_j          3.8e-09  422_[+1]_7
+PVE95_RS15810;species=R_          9.1e-09  41_[+1]_388
+GKJPGBOP_07793;species=S          1.7e-08  422_[+1]_7
+G3H79_13620;species=S_au          1.7e-08  422_[+1]_7
+PVE95_RS14445;species=R_          1.7e-08  422_[+1]_7
+B0E55_02419;species=R_sp          3.8e-08  34_[+1]_395
+RER_22070;species=R_eryt          3.8e-08  34_[+1]_395
+GFS60_03127;species=R_sp          5.5e-08  216_[+1]_213
+REQ_32900;species=R_equi          5.5e-08  50_[-1]_379
+B0E55_03125;species=R_sp          6.6e-08  122_[+1]_307
+F1734_17770;species=R_ru          6.6e-08  27_[+1]_402
+GKJPGBOP_07886;species=S          7.9e-08  422_[+1]_7
+GKJPGBOP_07880;species=S          7.9e-08  422_[+1]_7
+RHCRD62_50406;species=R_          7.9e-08  422_[+1]_7
+F1734_12100;species=R_ru          7.9e-08  422_[+1]_7
+PVE95_RS09340;species=R_          7.9e-08  422_[+1]_7
+RHA1_ro00339;species=R_j          7.9e-08  398_[+1]_31
+REQ_04220;species=R_equi          7.9e-08  422_[+1]_7
+REQ_45740;species=R_equi          9.5e-08  6_[-1]_423
+RHCRD62_50408;species=R_          1.1e-07  120_[+1]_309
+B0E55_02420;species=R_sp          1.9e-07  44_[-1]_385
+RER_22080;species=R_eryt          1.9e-07  44_[-1]_385
+G3H79_26850;species=S_au          2.2e-07  82_[-1]_347
+GFS60_05740;species=R_sp          2.2e-07  154_[-1]_275
+RER_51110;species=R_eryt          2.2e-07  419_[+1]_10
+RHCRD62_80148;species=R_          2.6e-07  1_[+1]_428
+GFS60_01869;species=R_sp          3.1e-07  11_[-1]_418
+B0E55_03292;species=R_sp          4.3e-07  50_[+1]_379
+RER_38310;species=R_eryt          4.3e-07  50_[+1]_379
+F1734_17765;species=R_ru            5e-07  72_[-1]_357
+PVE95_RS09330;species=R_            5e-07  107_[+1]_322
+GKJPGBOP_07888;species=S          6.8e-07  99_[-1]_330
+PVE95_RS08930;species=R_          6.8e-07  88_[-1]_341
+RHA1_ro06530;species=R_j          6.8e-07  121_[-1]_308
+RER_24390;species=R_eryt          6.8e-07  130_[-1]_299
+G3H79_25595;species=S_au          7.9e-07  108_[-1]_321
+RHCRD62_80149;species=R_          7.9e-07  216_[+1]_213
+RHA1_ro01251;species=R_j          7.9e-07  27_[-1]_402
+GKJPGBOP_07882;species=S          9.2e-07  33_[-1]_396
+G3H79_13615;species=S_au          9.2e-07  330_[+1]_99
+G3H79_27055;species=S_au          1.1e-06  398_[+1]_31
+JI76_08840;species=S_anu          1.1e-06  398_[+1]_31
+REQ_32930;species=R_equi          1.2e-06  90_[+1]_339
+JI76_02995;species=S_anu          1.4e-06  19_[-1]_410
+PVE95_RS15805;species=R_          1.4e-06  39_[-1]_390
+RHA1_ro00330;species=R_j          1.4e-06  236_[+1]_193
+GKJPGBOP_07028;species=S          1.6e-06  34_[-1]_395
+GFS60_02549;species=R_sp          1.6e-06  178_[+1]_251
+JI76_31445;species=S_anu          1.9e-06  64_[+1]_365
+G3H79_28705;species=S_au          2.2e-06  407_[+1]_22
+RHA1_ro02820;species=R_j          2.2e-06  16_[+1]_413
+GKJPGBOP_06106;species=S          2.5e-06  419_[+1]_10
+G3H79_31485;species=S_au          2.5e-06  313_[+1]_116
+RER_09840;species=R_eryt          2.5e-06  211_[-1]_218
+GKJPGBOP_06835;species=S          2.8e-06  73_[-1]_356
+RHCRD62_20484;species=R_          2.8e-06  422_[+1]_7
+PVE95_RS15815;species=R_          2.8e-06  395_[+1]_34
+RHA1_ro06367;species=R_j          2.8e-06  47_[-1]_382
+REQ_30930;species=R_equi          2.8e-06  96_[-1]_333
+REQ_04230;species=R_equi          2.8e-06  196_[+1]_233
+GKJPGBOP_07887;species=S          3.2e-06  225_[+1]_204
+REQ_04210;species=R_equi          3.2e-06  270_[+1]_159
+GKJPGBOP_06428;species=S          3.7e-06  421_[-1]_8
+JI76_10330;species=S_anu          3.7e-06  111_[-1]_318
+GKJPGBOP_07902;species=S          4.2e-06  40_[-1]_389
+G3H79_30650;species=S_au          4.2e-06  89_[-1]_340
+PVE95_RS09345;species=R_          4.2e-06  225_[+1]_204
+GKJPGBOP_00849;species=S          4.8e-06  192_[+1]_237
+G3H79_25600;species=S_au          4.8e-06  127_[+1]_302
+GFS60_05578;species=R_sp          4.8e-06  20_[+1]_409
+GFS60_00827;species=R_sp          4.8e-06  145_[-1]_284
+RHCRD62_20425;species=R_          4.8e-06  425_[+1]_4
+B0E55_02019;species=R_sp          4.8e-06  180_[+1]_249
+B0E55_00384;species=R_sp          4.8e-06  286_[-1]_143
+RHA1_ro06366;species=R_j          4.8e-06  19_[+1]_410
+B0E55_02224;species=R_sp          5.4e-06  38_[-1]_391
+RER_19920;species=R_eryt          5.4e-06  50_[-1]_379
+REQ_28630;species=R_equi          5.4e-06  1_[+1]_428
+GKJPGBOP_07885;species=S          6.1e-06  238_[+1]_191
+GKJPGBOP_05695;species=S          6.1e-06  81_[-1]_348
+GFS60_03534;species=R_sp          6.1e-06  309_[+1]_120
+GFS60_01877;species=R_sp          6.1e-06  17_[+1]_412
+RHCRD62_20707;species=R_          6.1e-06  84_[+1]_345
+RHCRD62_10209;species=R_          6.1e-06  43_[+1]_386
+RHA1_ro01167;species=R_j          6.1e-06  150_[+1]_279
+RER_02870;species=R_eryt          6.1e-06  394_[-1]_35
+RHCRD62_20483;species=R_          6.9e-06  246_[+1]_183
+PVE95_RS19205;species=R_          6.9e-06  424_[-1]_5
+RHA1_ro02828;species=R_j          6.9e-06  2_[-1]_427
+B0E55_04513;species=R_sp          7.8e-06  39_[+1]_390
+F1734_23775;species=R_ru          7.8e-06  239_[+1]_190
+G3H79_13610;species=S_au          8.8e-06  288_[+1]_141
+RHCRD62_50405;species=R_          8.8e-06  258_[+1]_171
+RHCRD62_50404;species=R_          8.8e-06  172_[+1]_257
+B0E55_02418;species=R_sp          8.8e-06  189_[+1]_240
+GFS60_02593;species=R_sp          9.9e-06  216_[+1]_213
+B0E55_05905;species=R_sp          9.9e-06  104_[+1]_325
+RER_38460;species=R_eryt          9.9e-06  105_[+1]_324
+REQ_32940;species=R_equi          9.9e-06  271_[+1]_158
+JI76_14420;species=S_anu          1.1e-05  3_[+1]_426
+RHA1_ro06365;species=R_j          1.1e-05  96_[+1]_333
+REQ_39560;species=R_equi          1.1e-05  91_[-1]_338
+REQ_27380;species=R_equi          1.1e-05  69_[-1]_360
+RHCRD62_70008;species=R_          1.3e-05  148_[+1]_281
+PVE95_RS09335;species=R_          1.3e-05  228_[+1]_201
+GKJPGBOP_00850;species=S          1.4e-05  63_[+1]_366
+RHCRD62_30262;species=R_          1.4e-05  232_[-1]_197
+F1734_21455;species=R_ru          1.4e-05  401_[+1]_28
+PVE95_RS14850;species=R_          1.4e-05  388_[+1]_41
+REQ_32910;species=R_equi          1.4e-05  60_[+1]_369
+RHCRD62_50407;species=R_          1.6e-05  275_[+1]_154
+RHCRD62_100080;species=R          1.6e-05  398_[+1]_31
+PVE95_RS14465;species=R_          1.6e-05  87_[+1]_342
+JI76_09080;species=S_anu          1.8e-05  121_[+1]_308
+RHCRD62_30157;species=R_          1.8e-05  84_[+1]_345
+RER_24400;species=R_eryt          1.8e-05  72_[-1]_357
+F1734_12095;species=R_ru            2e-05  233_[+1]_196
+F1734_09765;species=R_ru            2e-05  97_[+1]_332
+PVE95_RS08435;species=R_            2e-05  425_[+1]_4
+G3H79_26970;species=S_au          2.2e-05  185_[+1]_244
+G3H79_22955;species=S_au          2.2e-05  65_[+1]_364
+B0E55_03483;species=R_sp          2.2e-05  228_[-1]_201
+RER_36490;species=R_eryt          2.2e-05  228_[-1]_201
+RHCRD62_30457;species=R_          2.4e-05  277_[+1]_152
+RHCRD62_20487;species=R_          2.4e-05  428_[+1]_1
+RHCRD62_10096;species=R_          2.4e-05  129_[+1]_300
+B0E55_05238;species=R_sp          2.4e-05  154_[-1]_275
+F1734_12105;species=R_ru          2.4e-05  12_[+1]_417
+RHA1_ro03043;species=R_j          2.4e-05  391_[-1]_38
+RER_38440;species=R_eryt          2.4e-05  425_[+1]_4
+GKJPGBOP_07881;species=S          2.7e-05  204_[+1]_225
+GFS60_05579;species=R_sp          2.7e-05  392_[+1]_37
+RHCRD62_30158;species=R_          2.7e-05  180_[+1]_249
+GKJPGBOP_07879;species=S            3e-05  90_[-1]_339
+GKJPGBOP_05697;species=S            3e-05  30_[+1]_399
+RHCRD62_30159;species=R_          3.4e-05  132_[+1]_297
+B0E55_01378;species=R_sp          3.4e-05  126_[-1]_303
+GFS60_02896;species=R_sp          3.7e-05  398_[+1]_31
+RHCRD62_20485;species=R_          3.7e-05  398_[+1]_31
+B0E55_06110;species=R_sp          3.7e-05  85_[-1]_344
+RHA1_ro05312;species=R_j          3.7e-05  214_[+1]_215
+GKJPGBOP_05720;species=S          4.1e-05  104_[-1]_325
+B0E55_05903;species=R_sp          4.1e-05  2_[-1]_427
+REQ_29370;species=R_equi          4.1e-05  378_[-1]_51
+G3H79_13625;species=S_au          4.6e-05  18_[+1]_411
+GFS60_05577;species=R_sp          4.6e-05  44_[-1]_385
+PVE95_RS23545;species=R_          4.6e-05  398_[+1]_31
+F1734_16600;species=R_ru            5e-05  388_[+1]_41
+RHA1_ro00172;species=R_j            5e-05  175_[-1]_254
+GFS60_02374;species=R_sp          5.5e-05  192_[+1]_237
+GFS60_00593;species=R_sp          5.5e-05  346_[+1]_83
+RHCRD62_20488;species=R_          5.5e-05  134_[-1]_295
+RHA1_ro04198;species=R_j          5.5e-05  346_[+1]_83
+JI76_04995;species=S_anu          6.1e-05  183_[-1]_246
+RHCRD62_20482;species=R_          6.1e-05  48_[+1]_381
+F1734_12110;species=R_ru          6.1e-05  209_[-1]_220
+PVE95_RS09350;species=R_          6.1e-05  210_[+1]_219
+JI76_10325;species=S_anu          6.7e-05  142_[-1]_287
+F1734_22555;species=R_ru          6.7e-05  323_[-1]_106
+RER_22060;species=R_eryt          6.7e-05  231_[+1]_198
+GKJPGBOP_02396;species=S          7.4e-05  239_[+1]_190
+B0E55_02032;species=R_sp          7.4e-05  251_[-1]_178
+B0E55_00050;species=R_sp          7.4e-05  148_[+1]_281
+RER_51250;species=R_eryt          7.4e-05  281_[-1]_148
+REQ_42780;species=R_equi          7.4e-05  51_[-1]_378
+GFS60_03406;species=R_sp          8.1e-05  114_[+1]_315
+GFS60_02897;species=R_sp          8.1e-05  89_[+1]_340
+B0E55_02005;species=R_sp          8.1e-05  139_[-1]_290
+F1734_16240;species=R_ru          8.1e-05  109_[+1]_320
+F1734_11685;species=R_ru          8.1e-05  404_[+1]_25
+RHA1_ro08786;species=R_j          8.1e-05  82_[-1]_347
+REQ_42760;species=R_equi          8.1e-05  197_[-1]_232
+GKJPGBOP_07791;species=S          8.9e-05  132_[+1]_297
+JI76_08910;species=S_anu          8.9e-05  14_[+1]_415
+REQ_04200;species=R_equi          8.9e-05  153_[+1]_276
+REQ_32920;species=R_equi          9.8e-05  410_[+1]_19
+GKJPGBOP_07792;species=S          0.00012  141_[+1]_288
+RHA1_ro01405;species=R_j          0.00012  22_[+1]_407
+REQ_39480;species=R_equi          0.00012  147_[+1]_282
+GFS60_02070;species=R_sp          0.00013  201_[-1]_228
+RHA1_ro01721;species=R_j          0.00013  231_[-1]_198
+GKJPGBOP_05696;species=S          0.00014  192_[+1]_237
+F1734_18350;species=R_ru          0.00014  403_[-1]_26
+F1734_16245;species=R_ru          0.00014  260_[+1]_169
+F1734_12375;species=R_ru          0.00014  327_[+1]_102
+PVE95_RS14470;species=R_          0.00014  114_[-1]_315
+RHA1_ro04738;species=R_j          0.00014  130_[-1]_299
+GFS60_02365;species=R_sp          0.00015  201_[-1]_228
+RHCRD62_10210;species=R_          0.00015  267_[+1]_162
+F1734_17775;species=R_ru          0.00017  164_[+1]_265
+F1734_12090;species=R_ru          0.00017  290_[-1]_139
+RHA1_ro00863;species=R_j          0.00017  398_[+1]_31
+G3H79_09750;species=S_au          0.00018  247_[+1]_182
+F1734_11320;species=R_ru           0.0002  317_[+1]_112
+GKJPGBOP_08160;species=S          0.00021  21_[-1]_408
+RHA1_ro00862;species=R_j          0.00021  422_[+1]_7
+B0E55_02607;species=R_sp          0.00023  73_[+1]_356
+RER_03750;species=R_eryt          0.00025  200_[+1]_229
+REQ_03650;species=R_equi          0.00027  158_[+1]_271
+GFS60_01170;species=R_sp          0.00029  72_[+1]_357
+GFS60_06405;species=R_sp          0.00037  325_[-1]_104
+GFS60_06178;species=R_sp          0.00043  371_[-1]_58
+G3H79_26865;species=S_au          0.00046  17_[-1]_412
+GKJPGBOP_00995;species=S          0.00053  81_[+1]_348
+B0E55_02458;species=R_sp          0.00066  13_[-1]_416
+G3H79_07205;species=S_au            0.001  88_[-1]_341
+GKJPGBOP_07794;species=S           0.0013  355_[+1]_74
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif HGRTSRTCGHSDHSVTCGHCGA MEME-1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF HGRTSRTCGHSDHSVTCGHCGA width=22 seqs=213
+REQ_28480;species=R_equi (  423) AGGTCATCAAGTACATCGCCGA  1 
+F1734_16190;species=R_ru (  423) AGGTCATCAAGTACATCGAGGA  1 
+RHCRD62_30472;species=R_ (  423) AGGTCATCAAGTACATCGCGGA  1 
+B0E55_03509;species=R_sp (  423) AGGTCATCAAGTACATCGCGGA  1 
+RER_36230;species=R_eryt (  423) AGGTCATCAAGTACATCGCGGA  1 
+GFS60_02604;species=R_sp (  423) AGGTCATCAAGTTCATCGCGGA  1 
+RHA1_ro01157;species=R_j (  423) AGGTCATCAAGTTCATCAAGGA  1 
+PVE95_RS15810;species=R_ (   42) AGATGATCCCGTCCATCTTCGA  1 
+GKJPGBOP_07793;species=S (  423) CGATGGTCATGAACCTCGACAA  1 
+G3H79_13620;species=S_au (  423) CGATGGTCATGAACCTCGACAA  1 
+PVE95_RS14445;species=R_ (  423) AGGTCTTCAAGTTCATCGCGGA  1 
+B0E55_02419;species=R_sp (   35) AGATGATCCCGGCGATCTTCGA  1 
+RER_22070;species=R_eryt (   35) AGATGATCCCGGCGATCTTCGA  1 
+GFS60_03127;species=R_sp (  217) GGATCGCCGTCGACATCGTCGA  1 
+REQ_32900;species=R_equi (   51) AGGTGATCGAGTCCGCCGTCGA  1 
+B0E55_03125;species=R_sp (  123) AGATCGTCGAATCCCTCGACGA  1 
+F1734_17770;species=R_ru (   28) AGATGATCCCGTCCGTCTTCGA  1 
+GKJPGBOP_07886;species=S (  423) CGATGGTGATGAACCTCGACAA  1 
+GKJPGBOP_07880;species=S (  423) CGATGGTGATGAACCTCGACAA  1 
+RHCRD62_50406;species=R_ (  423) CGATGGTGATGAACCTCGACAA  1 
+F1734_12100;species=R_ru (  423) CGATGGTGATGAACCTCGACAA  1 
+PVE95_RS09340;species=R_ (  423) CGATGGTGATGAACCTCGACAA  1 
+RHA1_ro00339;species=R_j (  399) CGATGTTCGAATTGATCGACGA  1 
+REQ_04220;species=R_equi (  423) CGATGGTGATGAACCTCGACAA  1 
+REQ_45740;species=R_equi (    7) GGATCTCCGAGTTCCTCGTCGA  1 
+RHCRD62_50408;species=R_ (  121) TGGAGATCGCCGACATCGACAA  1 
+B0E55_02420;species=R_sp (   45) AGGTGATCGAGTCCGCCTTCGA  1 
+RER_22080;species=R_eryt (   45) AGGTGATCGAGTCCGCCTTCGA  1 
+G3H79_26850;species=S_au (   83) GGGCCATCGACACCATCGCCGA  1 
+GFS60_05740;species=R_sp (  155) AGATCGTCGGCGCCCTCGCCGA  1 
+RER_51110;species=R_eryt (  420) TGACCATCGGCTCGATCGTCGA  1 
+RHCRD62_80148;species=R_ (    2) GGGTGTTCGCGGAGGTCGTCGA  1 
+GFS60_01869;species=R_sp (   12) GGATCTTCACGGTGATCGGCGA  1 
+B0E55_03292;species=R_sp (   51) AGATGACCATCGAGTTCCTCAA  1 
+RER_38310;species=R_eryt (   51) AGATGACCATCGAGTTCCTCAA  1 
+F1734_17765;species=R_ru (   73) AGGTGCTCGAGACCGCCGTCGA  1 
+PVE95_RS09330;species=R_ (  108) TCGAGATCGCCGACATCGACAA  1 
+GKJPGBOP_07888;species=S (  100) AGGTGGTCGGGGAGTTCGTCGT  1 
+PVE95_RS08930;species=R_ (   89) AGATCGTCGGCGCCCTCACCGA  1 
+RHA1_ro06530;species=R_j (  122) AGATCGTCGGCGCCCTCACCGA  1 
+RER_24390;species=R_eryt (  131) AGGTCGTCGGCACCTTCACCGA  1 
+G3H79_25595;species=S_au (  109) ACGTGGTCGAGGCCGCCGTCGA  1 
+RHCRD62_80149;species=R_ (  217) CGATCATCGCGCTGATCGTGAA  1 
+RHA1_ro01251;species=R_j (   28) CGACCATGGACGACGTCGGCGA  1 
+GKJPGBOP_07882;species=S (   34) AGGTGGTCGGGGAGTTCGCCGC  1 
+G3H79_13615;species=S_au (  331) TCACGATCGAGAACTTCCACGC  1 
+G3H79_27055;species=S_au (  399) GGATGTTCCAGAACGCCGACGA  1 
+JI76_08840;species=S_anu (  399) GGATGTTCCAGAACGCCGACGA  1 
+REQ_32930;species=R_equi (   91) AGCTGATCCCGTCGATCTTCGA  1 
+JI76_02995;species=S_anu (   20) AGGTCCTCAAGGTCCTCCAGGA  1 
+PVE95_RS15805;species=R_ (   40) AGGTGCTCGAGGCCACCCTCGA  1 
+RHA1_ro00330;species=R_j (  237) GGGTCGTGACCGTGTTCGACGA  1 
+GKJPGBOP_07028;species=S (   35) CCGTCACCGTGCACTTCGACGA  1 
+GFS60_02549;species=R_sp (  179) ACATGCTGGTCGCCGTCATCGA  1 
+JI76_31445;species=S_anu (   65) TCGTCCCGGACGAGATCGTCGA  1 
+G3H79_28705;species=S_au (  408) GCATCGCCGAGAACGTCACCGA  1 
+RHA1_ro02820;species=R_j (   17) CCATCGAGAAGAACATCGGCAA  1 
+GKJPGBOP_06106;species=S (  420) AGGCCAAGAAGTTCATCGCGGA  1 
+G3H79_31485;species=S_au (  314) ACATGTCGACGCTGATCGTCGA  1 
+RER_09840;species=R_eryt (  212) ACATGGCCACCACGATCGTCGC  1 
+GKJPGBOP_06835;species=S (   74) AGGTGCTCAAGGTGCTCCAGGA  1 
+RHCRD62_20484;species=R_ (  423) CCATGGTCATGAACCTGGACAA  1 
+PVE95_RS15815;species=R_ (  396) CGGCGATGACGACCTTCATCGA  1 
+RHA1_ro06367;species=R_j (   48) AGGTGGTCGAGCCCGCCTTCGA  1 
+REQ_30930;species=R_equi (   97) AGGTCGTCGGCCCCCTCGCCGA  1 
+REQ_04230;species=R_equi (  197) CGATGCCCGTCGACATCGCCGC  1 
+GKJPGBOP_07887;species=S (  226) AGACCTCCGACACCCTCACCGA  1 
+REQ_04210;species=R_equi (  271) AGACCGCCGACGACGTCGCGGA  1 
+GKJPGBOP_06428;species=S (  422) GGATCTCGGAGATGATCGCCGC  1 
+JI76_10330;species=S_anu (  112) ACGTGGTCCAGGCCGCCGTCGA  1 
+GKJPGBOP_07902;species=S (   41) TGGACATCGCGTTCTTCGACAT  1 
+G3H79_30650;species=S_au (   90) AGGTCCTGAAGGTCCTCCAGGA  1 
+PVE95_RS09345;species=R_ (  226) TGGCGGTCGAGACCTTCCACGC  1 
+GKJPGBOP_00849;species=S (  193) TCATCCTCGCCGTCACCGCCGA  1 
+G3H79_25600;species=S_au (  128) TGGACATCGCGGCGTTCGGCGA  1 
+GFS60_05578;species=R_sp (   21) AGATGATTCCGTCGATCTTCGA  1 
+GFS60_00827;species=R_sp (  146) AGGCGGTCGCGGTCACCGTGGA  1 
+RHCRD62_20425;species=R_ (  426) TGGTCGTCGGATCGTTCGTCGA  1 
+B0E55_02019;species=R_sp (  181) AGGCGATCGACATGCTGTTCAA  1 
+B0E55_00384;species=R_sp (  287) TCATGGCCACCACGATCGTCGC  1 
+RHA1_ro06366;species=R_j (   20) AGATGATTCCGTCGATCTTCGA  1 
+B0E55_02224;species=R_sp (   39) GGATGTTCGGCTATCTCTTCGA  1 
+RER_19920;species=R_eryt (   51) GGATGTTCGGCTATCTCTTCGA  1 
+REQ_28630;species=R_equi (    2) AGGCCGCCCCGTTCCTCGACGA  1 
+GKJPGBOP_07885;species=S (  239) TGATCACGGCGTCGCTCGACGC  1 
+GKJPGBOP_05695;species=S (   82) ACGTGGTCGAGGCCGCCCTCGA  1 
+GFS60_03534;species=R_sp (  310) ACGTGATCGACATGTACGAGAA  1 
+GFS60_01877;species=R_sp (   18) CCATCGAGAAGAACATCATGAA  1 
+RHCRD62_20707;species=R_ (   85) TCATGTACACGGTCCTCCACGA  1 
+RHCRD62_10209;species=R_ (   44) ACGCCTACGCCATCGTCGTCGA  1 
+RHA1_ro01167;species=R_j (  151) AGATGAACGGCTCGCTCGTCAC  1 
+RER_02870;species=R_eryt (  395) CCATTTCCATCGACATCGACGA  1 
+RHCRD62_20483;species=R_ (  247) CGGCGTTCGAGGTGATGGCCGA  1 
+PVE95_RS19205;species=R_ (  425) CGGCGATCGTCATCGTCGCCAC  1 
+RHA1_ro02828;species=R_j (    3) GGATATTCACGGTGATCGGCGA  1 
+B0E55_04513;species=R_sp (   40) CCACCGCGAAGGACATCGTCGC  1 
+F1734_23775;species=R_ru (  240) ACGCCAACGCCTACATCACCAA  1 
+G3H79_13610;species=S_au (  289) TGATCCTGGACGCGATCTGCGC  1 
+RHCRD62_50405;species=R_ (  259) TGGCGGTCGAGACGTTCCACGC  1 
+RHCRD62_50404;species=R_ (  173) TGGCGATCGACATGTTGCACGA  1 
+B0E55_02418;species=R_sp (  190) TCGTCGTCGCGGTGATCGTGGT  1 
+GFS60_02593;species=R_sp (  217) GCGTCGACGACGCCGTCATCGA  1 
+B0E55_05905;species=R_sp (  105) CGCCTATCGACAACATCGCCGA  1 
+RER_38460;species=R_eryt (  106) CGCCTATCGACAACATCGCCGA  1 
+REQ_32940;species=R_equi (  272) GGACGTTCGTGGACCTCACCGC  1 
+JI76_14420;species=S_anu (    4) CGCTGATCGCGCTCATCGTCAT  1 
+RHA1_ro06365;species=R_j (   97) TGCTGTTCGGGGTGTTCCACGA  1 
+REQ_39560;species=R_equi (   92) AGACCGACGTGCTCGTCCTCGA  1 
+REQ_27380;species=R_equi (   70) GGGCGACCGTCCTCCTCGTCGA  1 
+RHCRD62_70008;species=R_ (  149) TCATCGACGGGAAGGTCTCCGA  1 
+PVE95_RS09335;species=R_ (  229) TGGTGATGGGCGCGACCTACGA  1 
+GKJPGBOP_00850;species=S (   64) AGGCCACCGACGACCTCACCGT  1 
+RHCRD62_30262;species=R_ (  233) AGGTCGACGCCGCGATCGCCGT  1 
+F1734_21455;species=R_ru (  402) TGAAGTTCAGGAAGCTCGCCGC  1 
+PVE95_RS14850;species=R_ (  389) AGGAGACCCTGTATGTCGTCGA  1 
+REQ_32910;species=R_equi (   61) CGGTCACCCAGCTGTTCGACGC  1 
+RHCRD62_50407;species=R_ (  276) CCGTCGTCGCCTTCCTCTACAC  1 
+RHCRD62_100080;species=R (  399) TGATGACGCTCGACACCACCGA  1 
+PVE95_RS14465;species=R_ (   88) TGACCTTCGCGGTGCTCCTCGC  1 
+JI76_09080;species=S_anu (  122) ATGTCGTCGAGTCCTTCTGCGA  1 
+RHCRD62_30157;species=R_ (   85) TGATGTTCGGGGTGCTGCACGA  1 
+RER_24400;species=R_eryt (   73) AGGTGCACACCGACGACGTCGA  1 
+F1734_12095;species=R_ru (  234) TCGTCATGGGCGCCACCTACGA  1 
+F1734_09765;species=R_ru (   98) GCCCCGTCGACGCCATCTACGA  1 
+PVE95_RS08435;species=R_ (  426) AGATCTACGAGCAGGTCAAGGC  1 
+G3H79_26970;species=S_au (  186) CGGCCGCCAACGCCGTCATCAA  1 
+G3H79_22955;species=S_au (   66) CGAAGGAGAAGTTCATCGGCGC  1 
+B0E55_03483;species=R_sp (  229) TAGTCGACGACGGCATCGTCGA  1 
+RER_36490;species=R_eryt (  229) TAGTCGACGACGGCATCGTCGA  1 
+RHCRD62_30457;species=R_ (  278) CGGTGGTGGCGTACCTGACCGA  1 
+RHCRD62_20487;species=R_ (  429) TGACGGTGGGGTCGGTCTCCGA  1 
+RHCRD62_10096;species=R_ (  130) CGATCACGGTCGAGATCGTGAT  1 
+B0E55_05238;species=R_sp (  155) ACGCGACCACGCACACCGACGA  1 
+F1734_12105;species=R_ru (   13) AGATCCCCGACGCCGTCGGCAT  1 
+RHA1_ro03043;species=R_j (  392) CCACGATGAACATCACCGAGAA  1 
+RER_38440;species=R_eryt (  426) AAGCGATCAAGGACGTCGAGGC  1 
+GKJPGBOP_07881;species=S (  205) TGGCCGTCGCCAAGTACGCCGA  1 
+GFS60_05579;species=R_sp (  393) GGACTGTGATGACCGTCGTCGA  1 
+RHCRD62_30158;species=R_ (  181) GGGTGTTCCTCGCCTTCTACGT  1 
+GKJPGBOP_07879;species=S (   91) AGCCGTTCATCGTCATCTGGGA  1 
+GKJPGBOP_05697;species=S (   31) CCGTCACCGCCAACTTCGGCAC  1 
+RHCRD62_30159;species=R_ (  133) ACGTGGACGGCTACCACGACGA  1 
+B0E55_01378;species=R_sp (  127) AGACCTCGGACGTCTCCGACGC  1 
+GFS60_02896;species=R_sp (  399) CGATGACCGCGACCATCGAGGG  1 
+RHCRD62_20485;species=R_ (  399) CGATGACCCCGACCACCGGCAA  1 
+B0E55_06110;species=R_sp (   86) GCATCCTGGTCTTGGTCGACAC  1 
+RHA1_ro05312;species=R_j (  215) TGGCCGAGCAGGTCGTCGGCGA  1 
+GKJPGBOP_05720;species=S (  105) AGCTCATGACGGAGTTCAGCAC  1 
+B0E55_05903;species=R_sp (    3) AGGCGCTGGACAAGCTCGAGAC  1 
+REQ_29370;species=R_equi (  379) GGGTGCTCCTGAATTTCGTGAA  1 
+G3H79_13625;species=S_au (   19) CGATCGCCAGCAGGATCTCCGA  1 
+GFS60_05577;species=R_sp (   45) TGAAACCCGACAACGTCGCCGA  1 
+PVE95_RS23545;species=R_ (  399) GGATGCAGGACGAGATCACCAC  1 
+F1734_16600;species=R_ru (  389) AGGAGTACCCGTATGTCGTCGA  1 
+RHA1_ro00172;species=R_j (  176) ACGTGATCCTGCTGCTCTCCAC  1 
+GFS60_02374;species=R_sp (  193) TGCTGGTGGCCTTCGACGTCAA  1 
+GFS60_00593;species=R_sp (  347) CGGTCATCGTGACTTTCCGCGC  1 
+RHCRD62_20488;species=R_ (  135) GCACGCTGACGGTCGTCGTCGC  1 
+RHA1_ro04198;species=R_j (  347) CGGTCATCGTGACTTTCCGCGC  1 
+JI76_04995;species=S_anu (  184) CGGTCGCGCTCTTCGTCGTCGT  1 
+RHCRD62_20482;species=R_ (   49) TGGAGTTCGCGGCGACCACCGA  1 
+F1734_12110;species=R_ru (  210) ACACCGCCCCGATCGTCGCCGC  1 
+PVE95_RS09350;species=R_ (  211) AGGTCGTCGCGGCCGTGTGCGC  1 
+JI76_10325;species=S_anu (  143) TGGTGCTCCTCTGCCTCGCCGC  1 
+F1734_22555;species=R_ru (  324) GGGTCACGGGGGCCGTCTTCGC  1 
+RER_22060;species=R_eryt (  232) TGATCGTGGTGCTCCTGGGCGC  1 
+GKJPGBOP_02396;species=S (  240) TGATCTCGGAGTTCATGGGGGC  1 
+B0E55_02032;species=R_sp (  252) AGACCGCGCACGACATCGACAG  1 
+B0E55_00050;species=R_sp (  149) CGATCCAGACCGCGATCAACGC  1 
+RER_51250;species=R_eryt (  282) AGACCGCGCACGACATCGACAG  1 
+REQ_42780;species=R_equi (   52) CGATCCTGCAGGCGCTGATCGA  1 
+GFS60_03406;species=R_sp (  115) CGATCACCACACTCACCGCCGA  1 
+GFS60_02897;species=R_sp (   90) TCATCCTGGTCGGCGTCAACGC  1 
+B0E55_02005;species=R_sp (  140) GCGACACCGAGAACGTGATCGA  1 
+F1734_16240;species=R_ru (  110) AGCTGCCCACCGACCTCGACAT  1 
+F1734_11685;species=R_ru (  405) AGGAAGTGGTGAACACCGGCGA  1 
+RHA1_ro08786;species=R_j (   83) GGACCCCCAACAACTCCGTCGC  1 
+REQ_42760;species=R_equi (  198) GGGCGGCGACGGTCGTCGACGC  1 
+GKJPGBOP_07791;species=S (  133) CCCTGATGCTGGAGTTCGCCGC  1 
+JI76_08910;species=S_anu (   15) ACATCGGGGAGACGATCACCGA  1 
+REQ_04200;species=R_equi (  154) CCGTCGTCCTCGAGTTCGCGGC  1 
+REQ_32920;species=R_equi (  411) TGGTGATCGTGGGCAACGGCAT  1 
+GKJPGBOP_07792;species=S (  142) TGGCCGTGGCCAAGTACGAGGA  1 
+RHA1_ro01405;species=R_j (   23) GCAAGCTCGAGGAGGTCGGCGT  1 
+REQ_39480;species=R_equi (  148) GGGTCGTGAAGCGGATCCGCGA  1 
+GFS60_02070;species=R_sp (  202) TGCTCGTCGTGTCGCTCCGCGC  1 
+RHA1_ro01721;species=R_j (  232) AGGAGGTGGCCGGCGCCGTCGA  1 
+GKJPGBOP_05696;species=S (  193) ACGTGATCCGCCTGTCCGACGC  1 
+F1734_18350;species=R_ru (  404) ACACCACCAGCACCAACCACGA  1 
+F1734_16245;species=R_ru (  261) CGGTGACCGGCTATTTCGTGAC  1 
+F1734_12375;species=R_ru (  328) GCCTGACGGACGCGATCGCCGC  1 
+PVE95_RS14470;species=R_ (  115) CGGTCGTCGAGATCACGAGCAC  1 
+RHA1_ro04738;species=R_j (  131) TGATGCTCGGACTGCTCGCCGC  1 
+GFS60_02365;species=R_sp (  202) TCGAGTTCGAGCACATGTCCGC  1 
+RHCRD62_10210;species=R_ (  268) CCGCGGCCGAGGTCGCCGGCGA  1 
+F1734_17775;species=R_ru (  165) CCGCGTTCGTGGTCCTGATCGC  1 
+F1734_12090;species=R_ru (  291) GGGTGCTCCTCCTGTTCGAGGC  1 
+RHA1_ro00863;species=R_j (  399) CGATGACCGCCCTGATCGAGGG  1 
+G3H79_09750;species=S_au (  248) ACACGCACGCCCCCTTCGTCAC  1 
+F1734_11320;species=R_ru (  318) AGGTGACGGTGATTAACAACAT  1 
+GKJPGBOP_08160;species=S (   22) TCACCGTCGAGTACCGCACCGA  1 
+RHA1_ro00862;species=R_j (  423) GCAAGCTGCTGGTCGTCGGCAA  1 
+B0E55_02607;species=R_sp (   74) GGCAGTACGACGTGGTCGTGGA  1 
+RER_03750;species=R_eryt (  201) TCCTGCCCCACCACCTCGGCGA  1 
+REQ_03650;species=R_equi (  159) TCCTGACCCACCACCTCCGCGA  1 
+GFS60_01170;species=R_sp (   73) GCATCATGATATGCCTCGTCAT  1 
+GFS60_06405;species=R_sp (  326) CGGCAATCCGGTCCCTCGACAC  1 
+GFS60_06178;species=R_sp (  372) ACATGTCCACCTGGTTCTCGGC  1 
+G3H79_26865;species=S_au (   18) GCAACCTGGAGGCCAACCCCGA  1 
+GKJPGBOP_00995;species=S (   82) AGGTGGCCGACCGCTCCAGCGC  1 
+B0E55_02458;species=R_sp (   14) TGACCTACGAGGGCACCAAGAC  1 
+G3H79_07205;species=S_au (   89) AGGTGTCCCACATGCTGGGCAG  1 
+GKJPGBOP_07794;species=S (  356) GCGTGCCCAGCGAGTCCGCCAC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif HGRTSRTCGHSDHSVTCGHCGA MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 22 n= 91590 bayes= 8.74483 E= 5.5e-177 
+   121    -53    -98     37 
+  -356    -32    110   -515 
+   143   -215     51  -1438 
+   -98    -45  -1438    201 
+  -315     42     63   -315 
+   104   -115      4     -2 
+   -57    -34   -614    189 
+ -1438    111    -29   -415 
+    68   -102     77  -1438 
+   126    -37   -134     34 
+  -257     31     75  -1438 
+    66   -156     26     43 
+   112    -17   -256     78 
+ -1438     92     -2   -198 
+   113    -51    -59     10 
+  -183   -119   -614    227 
+ -1438    148   -224  -1438 
+   -20   -163     87    -29 
+    83    -45   -119     92 
+ -1438    133   -106  -1438 
+    52  -1438    119  -1438 
+   193    -29   -383   -124 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif HGRTSRTCGHSDHSVTCGHCGA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 22 nsites= 213 E= 5.5e-177 
+ 0.384977  0.230047  0.169014  0.215962 
+ 0.014085  0.267606  0.713615  0.004695 
+ 0.450704  0.075117  0.474178  0.000000 
+ 0.084507  0.244131  0.000000  0.671362 
+ 0.018779  0.446009  0.516432  0.018779 
+ 0.342723  0.150235  0.342723  0.164319 
+ 0.112676  0.262911  0.004695  0.619718 
+ 0.000000  0.718310  0.272300  0.009390 
+ 0.267606  0.164319  0.568075  0.000000 
+ 0.399061  0.258216  0.131455  0.211268 
+ 0.028169  0.413146  0.558685  0.000000 
+ 0.262911  0.112676  0.399061  0.225352 
+ 0.361502  0.295775  0.056338  0.286385 
+ 0.000000  0.629108  0.328638  0.042254 
+ 0.366197  0.234742  0.220657  0.178404 
+ 0.046948  0.145540  0.004695  0.802817 
+ 0.000000  0.929577  0.070423  0.000000 
+ 0.145540  0.107981  0.610329  0.136150 
+ 0.295775  0.244131  0.145540  0.314554 
+ 0.000000  0.840376  0.159624  0.000000 
+ 0.239437  0.000000  0.760563  0.000000 
+ 0.633803  0.272300  0.023474  0.070423 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif HGRTSRTCGHSDHSVTCGHCGA MEME-1 regular expression
+--------------------------------------------------------------------------------
+[ACT][GC][GA][TC][GC][AG][TC][CG][GA][ACT][GC][GAT][ACT][CG][ACG]TCG[TAC]C[GA][AC]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 41.81 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+REQ_03650;species=R_equi         2.08e-01  451
+REQ_04200;species=R_equi         7.38e-02  153_[+1(8.92e-05)]_276
+REQ_04210;species=R_equi         2.77e-03  75_[+1(7.40e-05)]_137_\
+    [+1(2.44e-05)]_14_[+1(3.23e-06)]_159
+REQ_04220;species=R_equi         6.81e-05  51_[+1(3.72e-05)]_56_[+1(8.92e-05)]_\
+    271_[+1(7.92e-08)]_7
+REQ_04230;species=R_equi         2.43e-03  96_[-1(3.72e-05)]_78_[+1(2.82e-06)]_\
+    233
+REQ_27380;species=R_equi         9.55e-03  69_[-1(1.12e-05)]_360
+REQ_28480;species=R_equi         4.41e-08  422_[+1(5.13e-11)]_7
+REQ_28630;species=R_equi         4.63e-03  1_[+1(5.40e-06)]_100_[-1(6.73e-05)]_\
+    306
+REQ_29370;species=R_equi         3.48e-02  378_[-1(4.12e-05)]_51
+REQ_30930;species=R_equi         2.43e-03  96_[-1(2.82e-06)]_8_[+1(2.72e-05)]_\
+    303
+REQ_32900;species=R_equi         4.72e-05  50_[-1(5.49e-08)]_29_[+1(6.91e-06)]_\
+    110_[+1(1.12e-05)]_142_[-1(3.35e-05)]_32
+REQ_32910;species=R_equi         1.20e-02  60_[+1(1.40e-05)]_369
+REQ_32920;species=R_equi         8.06e-02  410_[+1(9.77e-05)]_19
+REQ_32930;species=R_equi         1.06e-03  17_[-1(2.72e-05)]_51_[+1(1.23e-06)]_\
+    163_[-1(2.19e-05)]_101_[+1(5.03e-05)]_31
+REQ_32940;species=R_equi         8.49e-03  271_[+1(9.92e-06)]_158
+REQ_39480;species=R_equi         9.58e-02  451
+REQ_39560;species=R_equi         9.55e-03  91_[-1(1.12e-05)]_32_[+1(8.92e-05)]_\
+    284
+REQ_42760;species=R_equi         6.75e-02  197_[-1(8.13e-05)]_232
+REQ_42780;species=R_equi         6.17e-02  51_[-1(7.40e-05)]_378
+REQ_45740;species=R_equi         8.15e-05  6_[-1(9.48e-08)]_423
+RER_02870;species=R_eryt         5.24e-03  394_[-1(6.11e-06)]_35
+RER_03750;species=R_eryt         1.94e-01  451
+RER_09840;species=R_eryt         2.12e-03  211_[-1(2.47e-06)]_93_\
+    [+1(3.35e-05)]_103
+RER_19920;species=R_eryt         4.63e-03  50_[-1(5.40e-06)]_379
+RER_22060;species=R_eryt         5.62e-02  231_[+1(6.73e-05)]_198
+RER_22070;species=R_eryt         3.23e-05  34_[+1(3.76e-08)]_154_\
+    [-1(9.77e-05)]_3_[+1(3.35e-05)]_47_[+1(3.02e-05)]_125
+RER_22080;species=R_eryt         1.63e-04  44_[-1(1.90e-07)]_53_[+1(6.73e-05)]_\
+    310
+RER_24390;species=R_eryt         5.86e-04  19_[+1(7.81e-06)]_89_[-1(6.81e-07)]_\
+    299
+RER_24400;species=R_eryt         1.50e-02  72_[-1(1.76e-05)]_357
+RER_36230;species=R_eryt         2.03e-06  422_[+1(2.36e-09)]_7
+RER_36490;species=R_eryt         1.87e-02  228_[-1(2.19e-05)]_201
+RER_38310;species=R_eryt         3.69e-04  50_[+1(4.28e-07)]_26_[+1(3.72e-05)]_\
+    331
+RER_38440;species=R_eryt         2.08e-02  425_[+1(2.44e-05)]_4
+RER_38460;species=R_eryt         8.49e-03  105_[+1(9.92e-06)]_324
+RER_51110;species=R_eryt         1.93e-04  419_[+1(2.24e-07)]_10
+RER_51250;species=R_eryt         6.17e-02  281_[-1(7.40e-05)]_148
+RHA1_ro00172;species=R_j         4.23e-02  175_[-1(5.03e-05)]_254
+RHA1_ro00330;species=R_j         1.22e-03  236_[+1(1.42e-06)]_193
+RHA1_ro00339;species=R_j         6.81e-05  51_[+1(7.81e-06)]_37_[-1(2.47e-06)]_\
+    9_[+1(7.40e-05)]_20_[+1(5.40e-06)]_104_[+1(1.40e-05)]_67_[+1(7.92e-08)]_31
+RHA1_ro00862;species=R_j         1.67e-01  451
+RHA1_ro00863;species=R_j         1.33e-01  451
+RHA1_ro01157;species=R_j         3.23e-06  422_[+1(3.76e-09)]_7
+RHA1_ro01167;species=R_j         5.24e-03  150_[+1(6.11e-06)]_279
+RHA1_ro01251;species=R_j         6.81e-04  27_[-1(7.92e-07)]_402
+RHA1_ro01405;species=R_j         9.58e-02  451
+RHA1_ro01721;species=R_j         1.04e-01  451
+RHA1_ro02820;species=R_j         1.85e-03  16_[+1(2.16e-06)]_148_\
+    [-1(6.73e-05)]_9_[+1(4.55e-05)]_186_[+1(7.40e-05)]_4
+RHA1_ro02828;species=R_j         5.93e-03  2_[-1(6.91e-06)]_427
+RHA1_ro03043;species=R_j         2.08e-02  220_[-1(5.55e-05)]_149_\
+    [-1(2.44e-05)]_38
+RHA1_ro04198;species=R_j         4.66e-02  346_[+1(5.55e-05)]_83
+RHA1_ro04738;species=R_j         1.13e-01  451
+RHA1_ro05312;species=R_j         3.15e-02  214_[+1(3.72e-05)]_122_\
+    [+1(9.77e-05)]_71
+RHA1_ro06365;species=R_j         9.55e-03  96_[+1(1.12e-05)]_34_[-1(5.55e-05)]_\
+    224_[+1(4.55e-05)]_31
+RHA1_ro06366;species=R_j         4.08e-03  19_[+1(4.76e-06)]_179_\
+    [+1(4.55e-05)]_209
+RHA1_ro06367;species=R_j         2.43e-03  47_[-1(2.82e-06)]_323_\
+    [+1(2.72e-05)]_37
+RHA1_ro06530;species=R_j         5.86e-04  31_[+1(3.02e-05)]_68_[-1(6.81e-07)]_\
+    308
+RHA1_ro08786;species=R_j         6.75e-02  82_[-1(8.13e-05)]_347
+PVE95_RS08435;species=R_         1.68e-02  425_[+1(1.97e-05)]_4
+PVE95_RS08930;species=R_         5.86e-04  88_[-1(6.81e-07)]_294_\
+    [+1(8.13e-05)]_25
+PVE95_RS09330;species=R_         4.31e-04  29_[+1(7.40e-05)]_14_[+1(4.76e-06)]_\
+    20_[+1(5.01e-07)]_322
+PVE95_RS09335;species=R_         1.07e-02  27_[+1(4.12e-05)]_50_[+1(3.02e-05)]_\
+    107_[+1(1.25e-05)]_201
+PVE95_RS09340;species=R_         6.81e-05  42_[-1(3.02e-05)]_165_\
+    [+1(8.13e-05)]_141_[+1(5.40e-06)]_8_[+1(7.92e-08)]_7
+PVE95_RS09345;species=R_         3.59e-03  3_[+1(1.76e-05)]_35_[+1(6.73e-05)]_\
+    5_[+1(7.40e-05)]_116_[+1(4.18e-06)]_204
+PVE95_RS09350;species=R_         5.12e-02  210_[+1(6.11e-05)]_219
+PVE95_RS14445;species=R_         1.47e-05  422_[+1(1.71e-08)]_7
+PVE95_RS14465;species=R_         1.34e-02  87_[+1(1.57e-05)]_143_\
+    [+1(3.35e-05)]_177
+PVE95_RS14470;species=R_         1.13e-01  451
+PVE95_RS14850;species=R_         1.20e-02  388_[+1(1.40e-05)]_41
+PVE95_RS15805;species=R_         1.22e-03  39_[-1(1.42e-06)]_50_[+1(8.92e-05)]_\
+    318
+PVE95_RS15810;species=R_         7.83e-06  41_[+1(9.11e-09)]_17_[-1(1.40e-05)]_\
+    124_[-1(5.40e-06)]_203
+PVE95_RS15815;species=R_         2.43e-03  69_[+1(9.92e-06)]_304_\
+    [+1(2.82e-06)]_34
+PVE95_RS19205;species=R_         5.93e-03  424_[-1(6.91e-06)]_5
+PVE95_RS23545;species=R_         3.84e-02  398_[+1(4.55e-05)]_31
+F1734_09765;species=R_ru         1.68e-02  97_[+1(1.97e-05)]_332
+F1734_11320;species=R_ru         1.55e-01  451
+F1734_11685;species=R_ru         6.75e-02  404_[+1(8.13e-05)]_25
+F1734_12090;species=R_ru         1.33e-01  451
+F1734_12095;species=R_ru         1.68e-02  104_[+1(4.12e-05)]_107_\
+    [+1(1.97e-05)]_38_[+1(8.13e-05)]_136
+F1734_12100;species=R_ru         6.81e-05  214_[+1(9.77e-05)]_123_\
+    [-1(9.92e-06)]_41_[+1(7.92e-08)]_7
+F1734_12105;species=R_ru         2.08e-02  12_[+1(2.44e-05)]_62_[+1(5.03e-05)]_\
+    116_[+1(3.02e-05)]_195
+F1734_12110;species=R_ru         5.12e-02  209_[-1(6.11e-05)]_220
+F1734_12375;species=R_ru         1.13e-01  451
+F1734_16190;species=R_ru         3.44e-07  422_[+1(4.00e-10)]_7
+F1734_16240;species=R_ru         6.75e-02  109_[+1(8.13e-05)]_320
+F1734_16245;species=R_ru         1.13e-01  451
+F1734_16600;species=R_ru         4.23e-02  388_[+1(5.03e-05)]_41
+F1734_17765;species=R_ru         4.31e-04  72_[-1(5.01e-07)]_298_\
+    [+1(2.72e-05)]_37
+F1734_17770;species=R_ru         5.68e-05  27_[+1(6.60e-08)]_402
+F1734_17775;species=R_ru         1.33e-01  451
+F1734_18350;species=R_ru         1.13e-01  451
+F1734_21455;species=R_ru         1.20e-02  401_[+1(1.40e-05)]_28
+F1734_22555;species=R_ru         5.62e-02  323_[-1(6.73e-05)]_106
+F1734_23775;species=R_ru         6.69e-03  185_[+1(5.55e-05)]_32_\
+    [+1(7.81e-06)]_26_[+1(8.81e-06)]_142
+B0E55_00050;species=R_sp         6.17e-02  148_[+1(7.40e-05)]_281
+B0E55_00384;species=R_sp         4.08e-03  286_[-1(4.76e-06)]_93_\
+    [+1(3.35e-05)]_28
+B0E55_01378;species=R_sp         2.84e-02  21_[+1(6.11e-05)]_83_[-1(3.35e-05)]_\
+    303
+B0E55_02005;species=R_sp         6.75e-02  139_[-1(8.13e-05)]_290
+B0E55_02019;species=R_sp         4.08e-03  180_[+1(4.76e-06)]_217_\
+    [+1(2.72e-05)]_10
+B0E55_02032;species=R_sp         6.17e-02  251_[-1(7.40e-05)]_178
+B0E55_02224;species=R_sp         4.63e-03  38_[-1(5.40e-06)]_391
+B0E55_02418;species=R_sp         7.55e-03  189_[+1(8.81e-06)]_240
+B0E55_02419;species=R_sp         3.23e-05  34_[+1(3.76e-08)]_154_\
+    [-1(9.77e-05)]_3_[+1(3.35e-05)]_47_[+1(3.02e-05)]_125
+B0E55_02420;species=R_sp         1.63e-04  44_[-1(1.90e-07)]_53_[+1(6.73e-05)]_\
+    310
+B0E55_02458;species=R_sp         4.33e-01  451
+B0E55_02607;species=R_sp         1.80e-01  451
+B0E55_03125;species=R_sp         5.68e-05  122_[+1(6.60e-08)]_307
+B0E55_03292;species=R_sp         3.69e-04  50_[+1(4.28e-07)]_26_[+1(3.72e-05)]_\
+    331
+B0E55_03483;species=R_sp         1.87e-02  228_[-1(2.19e-05)]_201
+B0E55_03509;species=R_sp         2.03e-06  422_[+1(2.36e-09)]_7
+B0E55_04513;species=R_sp         6.69e-03  39_[+1(7.81e-06)]_390
+B0E55_05238;species=R_sp         2.08e-02  154_[-1(2.44e-05)]_275
+B0E55_05903;species=R_sp         3.48e-02  2_[-1(4.12e-05)]_427
+B0E55_05905;species=R_sp         8.49e-03  104_[+1(9.92e-06)]_325
+B0E55_06110;species=R_sp         3.15e-02  85_[-1(3.72e-05)]_344
+RHCRD62_10096;species=R_         2.08e-02  129_[+1(2.44e-05)]_300
+RHCRD62_10209;species=R_         5.24e-03  43_[+1(6.11e-06)]_98_[+1(1.25e-05)]_\
+    53_[+1(8.13e-05)]_191
+RHCRD62_10210;species=R_         1.23e-01  451
+RHCRD62_100080;species=R         1.34e-02  398_[+1(1.57e-05)]_31
+RHCRD62_20425;species=R_         4.08e-03  123_[+1(2.19e-05)]_280_\
+    [+1(4.76e-06)]_4
+RHCRD62_20482;species=R_         5.12e-02  48_[+1(6.11e-05)]_381
+RHCRD62_20483;species=R_         5.93e-03  246_[+1(6.91e-06)]_183
+RHCRD62_20484;species=R_         2.43e-03  252_[-1(8.13e-05)]_148_\
+    [+1(2.82e-06)]_7
+RHCRD62_20485;species=R_         3.15e-02  398_[+1(3.72e-05)]_31
+RHCRD62_20487;species=R_         2.08e-02  428_[+1(2.44e-05)]_1
+RHCRD62_20488;species=R_         4.66e-02  134_[-1(5.55e-05)]_66_\
+    [+1(8.13e-05)]_207
+RHCRD62_20707;species=R_         5.24e-03  84_[+1(6.11e-06)]_345
+RHCRD62_30157;species=R_         1.50e-02  84_[+1(1.76e-05)]_345
+RHCRD62_30158;species=R_         2.31e-02  180_[+1(2.72e-05)]_249
+RHCRD62_30159;species=R_         2.84e-02  54_[-1(7.40e-05)]_56_[+1(3.35e-05)]_\
+    297
+RHCRD62_30262;species=R_         1.20e-02  232_[-1(1.40e-05)]_50_\
+    [-1(4.12e-05)]_125
+RHCRD62_30457;species=R_         2.08e-02  277_[+1(2.44e-05)]_152
+RHCRD62_30472;species=R_         2.03e-06  422_[+1(2.36e-09)]_7
+RHCRD62_50404;species=R_         7.55e-03  25_[+1(2.19e-05)]_125_\
+    [+1(8.81e-06)]_257
+RHCRD62_50405;species=R_         7.55e-03  51_[+1(6.11e-05)]_185_\
+    [+1(8.81e-06)]_171
+RHCRD62_50406;species=R_         6.81e-05  422_[+1(7.92e-08)]_7
+RHCRD62_50407;species=R_         1.34e-02  58_[-1(6.11e-05)]_147_\
+    [+1(2.72e-05)]_26_[+1(1.57e-05)]_154
+RHCRD62_50408;species=R_         9.73e-05  78_[+1(6.73e-05)]_20_[+1(1.13e-07)]_\
+    8_[+1(1.12e-05)]_279
+RHCRD62_70008;species=R_         1.07e-02  148_[+1(1.25e-05)]_119_\
+    [-1(1.57e-05)]_140
+RHCRD62_80148;species=R_         2.28e-04  1_[+1(2.65e-07)]_11_[+1(2.19e-05)]_\
+    68_[-1(3.72e-05)]_305
+RHCRD62_80149;species=R_         6.81e-04  36_[-1(3.23e-06)]_23_[+1(6.11e-05)]_\
+    35_[-1(6.11e-05)]_56_[+1(7.92e-07)]_213
+GFS60_00593;species=R_sp         4.66e-02  346_[+1(5.55e-05)]_83
+GFS60_00827;species=R_sp         4.08e-03  145_[-1(4.76e-06)]_284
+GFS60_01170;species=R_sp         2.23e-01  451
+GFS60_01869;species=R_sp         2.68e-04  11_[-1(3.11e-07)]_80_[-1(3.02e-05)]_\
+    316
+GFS60_01877;species=R_sp         5.24e-03  17_[+1(6.11e-06)]_179_\
+    [+1(2.44e-05)]_5_[+1(7.40e-05)]_158_[+1(7.40e-05)]_4
+GFS60_02070;species=R_sp         1.04e-01  451
+GFS60_02365;species=R_sp         1.23e-01  451
+GFS60_02374;species=R_sp         4.66e-02  30_[+1(9.77e-05)]_140_\
+    [+1(5.55e-05)]_237
+GFS60_02549;species=R_sp         1.40e-03  4_[+1(6.73e-05)]_152_[+1(1.63e-06)]_\
+    38_[+1(5.55e-05)]_191
+GFS60_02593;species=R_sp         8.49e-03  216_[+1(9.92e-06)]_213
+GFS60_02604;species=R_sp         3.23e-06  422_[+1(3.76e-09)]_7
+GFS60_02896;species=R_sp         3.15e-02  398_[+1(3.72e-05)]_31
+GFS60_02897;species=R_sp         6.75e-02  89_[+1(8.13e-05)]_340
+GFS60_03127;species=R_sp         4.72e-05  216_[+1(5.49e-08)]_213
+GFS60_03406;species=R_sp         6.75e-02  114_[+1(8.13e-05)]_315
+GFS60_03534;species=R_sp         5.24e-03  78_[+1(6.73e-05)]_209_\
+    [+1(6.11e-06)]_120
+GFS60_05577;species=R_sp         3.84e-02  44_[-1(4.55e-05)]_385
+GFS60_05578;species=R_sp         4.08e-03  20_[+1(4.76e-06)]_409
+GFS60_05579;species=R_sp         2.31e-02  392_[+1(2.72e-05)]_37
+GFS60_05740;species=R_sp         1.93e-04  31_[+1(1.63e-06)]_11_[+1(3.02e-05)]_\
+    68_[-1(2.24e-07)]_275
+GFS60_06178;species=R_sp         3.09e-01  451
+GFS60_06405;species=R_sp         2.72e-01  451
+JI76_02995;species=S_anu         1.22e-03  19_[-1(1.42e-06)]_410
+JI76_04995;species=S_anu         5.12e-02  183_[-1(6.11e-05)]_246
+JI76_08840;species=S_anu         9.15e-04  398_[+1(1.06e-06)]_31
+JI76_08910;species=S_anu         7.38e-02  14_[+1(8.92e-05)]_415
+JI76_09080;species=S_anu         1.50e-02  121_[+1(1.76e-05)]_308
+JI76_10325;species=S_anu         5.62e-02  7_[-1(8.92e-05)]_113_[-1(6.73e-05)]_\
+    287
+JI76_10330;species=S_anu         3.16e-03  111_[-1(3.68e-06)]_264_\
+    [-1(2.44e-05)]_32
+JI76_14420;species=S_anu         9.55e-03  3_[+1(1.12e-05)]_89_[+1(1.76e-05)]_\
+    74_[+1(9.77e-05)]_219
+JI76_31445;species=S_anu         1.61e-03  64_[+1(1.88e-06)]_134_\
+    [+1(3.35e-05)]_152_[-1(7.40e-05)]_11_[+1(4.12e-05)]_2
+G3H79_07205;species=S_au         5.94e-01  451
+G3H79_09750;species=S_au         1.44e-01  451
+G3H79_13610;species=S_au         7.55e-03  174_[+1(5.55e-05)]_92_\
+    [+1(8.81e-06)]_141
+G3H79_13615;species=S_au         7.90e-04  99_[+1(1.40e-05)]_209_\
+    [+1(9.19e-07)]_14_[+1(6.11e-06)]_63
+G3H79_13620;species=S_au         1.47e-05  81_[+1(7.40e-05)]_319_\
+    [+1(1.71e-08)]_7
+G3H79_13625;species=S_au         3.84e-02  18_[+1(4.55e-05)]_411
+G3H79_22955;species=S_au         1.87e-02  65_[+1(2.19e-05)]_364
+G3H79_25595;species=S_au         6.81e-04  108_[-1(7.92e-07)]_255_\
+    [-1(3.02e-05)]_44
+G3H79_25600;species=S_au         4.08e-03  127_[+1(4.76e-06)]_14_\
+    [-1(4.12e-05)]_266
+G3H79_26850;species=S_au         1.93e-04  25_[-1(1.97e-05)]_35_[-1(2.24e-07)]_\
+    347
+G3H79_26865;species=S_au         3.28e-01  451
+G3H79_26970;species=S_au         1.87e-02  185_[+1(2.19e-05)]_244
+G3H79_27055;species=S_au         9.15e-04  398_[+1(1.06e-06)]_31
+G3H79_28705;species=S_au         1.85e-03  407_[+1(2.16e-06)]_22
+G3H79_30650;species=S_au         3.59e-03  89_[-1(4.18e-06)]_340
+G3H79_31485;species=S_au         2.12e-03  313_[+1(2.47e-06)]_116
+GKJPGBOP_00849;species=S         4.08e-03  192_[+1(4.76e-06)]_56_\
+    [+1(8.92e-05)]_17_[+1(8.92e-05)]_120
+GKJPGBOP_00850;species=S         1.20e-02  63_[+1(1.40e-05)]_366
+GKJPGBOP_00995;species=S         3.68e-01  451
+GKJPGBOP_02396;species=S         6.17e-02  239_[+1(7.40e-05)]_190
+GKJPGBOP_05695;species=S         5.24e-03  81_[-1(6.11e-06)]_348
+GKJPGBOP_05696;species=S         1.13e-01  451
+GKJPGBOP_05697;species=S         2.56e-02  30_[+1(3.02e-05)]_399
+GKJPGBOP_05720;species=S         3.48e-02  104_[-1(4.12e-05)]_325
+GKJPGBOP_06106;species=S         2.12e-03  419_[+1(2.47e-06)]_10
+GKJPGBOP_06428;species=S         3.16e-03  67_[+1(9.92e-06)]_332_\
+    [-1(3.68e-06)]_8
+GKJPGBOP_06835;species=S         2.43e-03  73_[-1(2.82e-06)]_356
+GKJPGBOP_07028;species=S         1.40e-03  34_[-1(1.63e-06)]_395
+GKJPGBOP_07791;species=S         7.38e-02  132_[+1(8.92e-05)]_297
+GKJPGBOP_07792;species=S         9.58e-02  451
+GKJPGBOP_07793;species=S         1.47e-05  99_[+1(5.03e-05)]_301_\
+    [+1(1.71e-08)]_7
+GKJPGBOP_07794;species=S         6.84e-01  451
+GKJPGBOP_07879;species=S         2.56e-02  90_[-1(3.02e-05)]_339
+GKJPGBOP_07880;species=S         6.81e-05  70_[+1(4.12e-05)]_77_[+1(4.55e-05)]_\
+    231_[+1(7.92e-08)]_7
+GKJPGBOP_07881;species=S         2.31e-02  30_[+1(5.55e-05)]_152_\
+    [+1(2.72e-05)]_225
+GKJPGBOP_07882;species=S         7.90e-04  33_[-1(9.19e-07)]_396
+GKJPGBOP_07885;species=S         5.24e-03  238_[+1(6.11e-06)]_191
+GKJPGBOP_07886;species=S         6.81e-05  61_[+1(3.72e-05)]_339_\
+    [+1(7.92e-08)]_7
+GKJPGBOP_07887;species=S         2.77e-03  225_[+1(3.23e-06)]_204
+GKJPGBOP_07888;species=S         5.86e-04  99_[-1(6.81e-07)]_330
+GKJPGBOP_07902;species=S         3.59e-03  40_[-1(4.18e-06)]_389
+GKJPGBOP_08160;species=S         1.67e-01  451
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (1) found.
+********************************************************************************
+
+CPU: userdeMacBook-Pro.local
+
+********************************************************************************
